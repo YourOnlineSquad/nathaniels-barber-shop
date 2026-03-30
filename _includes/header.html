@@ -1,56 +1,61 @@
-<style>
+ <style>
+  /* Mega Header Styles */
   .site-header {
     position: sticky;
     top: 0;
     width: 100%;
-    min-height: var(--header-height);
-    background: rgba(2, 2, 3, 0.75); 
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-    border-bottom: 1px solid rgba(244, 196, 48, 0.15); 
+    background: rgba(2, 2, 3, 0.65); 
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); 
     z-index: 1000;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
   }
   
   .header-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
   }
   
   .logo {
-    font-family: var(--font-heading);
-    font-size: 2.2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
     font-weight: 900;
     color: var(--accent-gold);
     text-decoration: none;
     letter-spacing: 1px;
-    text-shadow: 0 0 15px rgba(244, 196, 48, 0.4);
-    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: 0 0 15px rgba(244, 196, 48, 0.5);
+    white-space: nowrap;
+    transition: all 0.3s ease;
   }
   
   .logo:hover {
-    transform: scale(1.05);
-    text-shadow: 0 0 25px rgba(244, 196, 48, 0.8);
+    text-shadow: 0 0 25px rgba(244, 196, 48, 0.9);
+    transform: scale(1.02);
   }
   
   .main-nav {
     display: flex;
-    gap: 35px;
+    gap: 40px;
     align-items: center;
+    height: 100%;
   }
   
-  .main-nav a {
+  .nav-item {
+    position: relative;
+    padding: 20px 0;
+  }
+
+  .nav-link {
     color: var(--text-light);
     text-decoration: none;
-    font-family: var(--font-body);
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 0.95rem;
     text-transform: uppercase;
@@ -58,55 +63,137 @@
     transition: color 0.3s ease, text-shadow 0.3s ease;
   }
   
-  .main-nav a:hover {
+  .nav-link:hover {
     color: var(--accent-gold);
-    text-shadow: 0 0 10px rgba(244, 196, 48, 0.5);
+    text-shadow: 0 0 15px rgba(244, 196, 48, 0.6);
   }
 
-  .nav-contact {
-    font-size: 0.85rem !important;
-    color: var(--text-muted) !important;
+  /* --- MEGA MENU DROPDOWN --- */
+  .mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: rgba(10, 12, 18, 0.85);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 1px solid rgba(244, 196, 48, 0.2);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+    width: 600px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    pointer-events: none;
   }
-  
+
+  /* Show Mega Menu on Hover */
+  .nav-item:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+  }
+
+  .mega-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+
+  .mega-link:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .mega-link svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--accent-gold);
+  }
+
+  .mega-text h4 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .mega-text p {
+    color: #888;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+  }
+  /* ------------------------- */
+
   .header-btn {
     background: linear-gradient(135deg, rgba(244, 196, 48, 0.1) 0%, rgba(244, 196, 48, 0.2) 100%);
     color: var(--accent-gold);
     border: 1px solid var(--accent-gold);
-    padding: 10px 24px;
+    padding: 12px 30px;
     text-decoration: none;
     font-weight: 800;
     border-radius: 6px;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-size: 0.9rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(244, 196, 48, 0.2);
+    transition: all 0.4s ease;
+    box-shadow: 0 0 15px rgba(244, 196, 48, 0.2);
   }
   
   .header-btn:hover {
     background: linear-gradient(135deg, var(--accent-red) 0%, #a01d1d 100%);
     color: #ffffff;
     border-color: var(--accent-red);
-    box-shadow: 0 0 20px rgba(211, 47, 47, 0.6);
-    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(211, 47, 47, 0.6);
+    transform: translateY(-3px);
   }
 
-  @media (max-width: 850px) {
-    .site-header { padding: 15px 0; }
-    .header-container { flex-direction: column; gap: 15px; justify-content: center; }
-    .main-nav { gap: 20px; flex-wrap: wrap; justify-content: center; }
+  @media (max-width: 1024px) {
+    .header-container { flex-direction: column; gap: 20px; padding: 15px 20px; }
+    .main-nav { flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .mega-menu { display: none; /* Hide mega menu on smaller screens for simplicity */ }
   }
 </style>
 
 <header class="site-header">
   <div class="header-container">
-    <a href="/" class="logo">Nathaniel's</a>
+    <a href="/" class="logo">Nathaniel's Barber Shop</a>
     
     <nav class="main-nav">
-      <a href="/">Home</a>
-      <a href="/services/">Services</a>
-      <a href="/faq/">FAQ</a>
-      <a href="tel:6054130423" class="nav-contact">(605) 413-0423</a>
+      <div class="nav-item"><a href="/" class="nav-link">Home</a></div>
+      
+      <div class="nav-item">
+        <a href="/services/" class="nav-link">Services ▾</a>
+        <div class="mega-menu">
+          <a href="/services/mens-haircut" class="mega-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4L4 20M4 4l16 16M9 9a2 2 0 1 0-4 0 2 2 0 0 0 4 0zm10 10a2 2 0 1 0-4 0 2 2 0 0 0 4 0z"/></svg>
+            <div class="mega-text"><h4>Mens Haircut</h4><p>Precision tailoring & styling</p></div>
+          </a>
+          <a href="/services/beard-trim" class="mega-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <div class="mega-text"><h4>Beard Trim</h4><p>Sculpting & conditioning</p></div>
+          </a>
+          <a href="/services/shave" class="mega-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            <div class="mega-text"><h4>Hot Towel Shave</h4><p>Traditional straight razor</p></div>
+          </a>
+          <a href="/services/line-up" class="mega-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            <div class="mega-text"><h4>Line Up</h4><p>Crisp edges & definition</p></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-item"><a href="/faq/" class="nav-link">FAQ</a></div>
+      <div class="nav-item"><a href="tel:6054130423" class="nav-link" style="color:#888;">(605) 413-0423</a></div>
     </nav>
     
     <a href="https://www.styleseat.com/m/v/nathanielsbarbershop" target="_blank" rel="noopener noreferrer" class="header-btn">Book Now</a>
