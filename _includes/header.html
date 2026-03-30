@@ -1,11 +1,114 @@
-<header>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/services/">Services</a>
-    <a href="/services/mens-haircut/">Mens Haircut</a>
-    <a href="/services/beard-trim/">Beard Trim</a>
-    <a href="/services/shave/">Shave</a>
-    <a href="/services/kids-haircut/">Kids Haircut</a>
-    <a href="/services/line-up/">Line Up</a>
-  </nav>
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    min-height: var(--header-height);
+    background: rgba(2, 2, 3, 0.75); 
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-bottom: 1px solid rgba(244, 196, 48, 0.15); 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  }
+  
+  .header-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--accent-gold);
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 0 0 15px rgba(244, 196, 48, 0.4);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 25px rgba(244, 196, 48, 0.8);
+  }
+  
+  .main-nav {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+  }
+  
+  .main-nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .main-nav a:hover {
+    color: var(--accent-gold);
+    text-shadow: 0 0 10px rgba(244, 196, 48, 0.5);
+  }
+
+  .nav-contact {
+    font-size: 0.85rem !important;
+    color: var(--text-muted) !important;
+  }
+  
+  .header-btn {
+    background: linear-gradient(135deg, rgba(244, 196, 48, 0.1) 0%, rgba(244, 196, 48, 0.2) 100%);
+    color: var(--accent-gold);
+    border: 1px solid var(--accent-gold);
+    padding: 10px 24px;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(244, 196, 48, 0.2);
+  }
+  
+  .header-btn:hover {
+    background: linear-gradient(135deg, var(--accent-red) 0%, #a01d1d 100%);
+    color: #ffffff;
+    border-color: var(--accent-red);
+    box-shadow: 0 0 20px rgba(211, 47, 47, 0.6);
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 850px) {
+    .site-header { padding: 15px 0; }
+    .header-container { flex-direction: column; gap: 15px; justify-content: center; }
+    .main-nav { gap: 20px; flex-wrap: wrap; justify-content: center; }
+  }
+</style>
+
+<header class="site-header">
+  <div class="header-container">
+    <a href="/" class="logo">Nathaniel's</a>
+    
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/services/">Services</a>
+      <a href="/faq/">FAQ</a>
+      <a href="tel:6054130423" class="nav-contact">(605) 413-0423</a>
+    </nav>
+    
+    <a href="https://www.styleseat.com/m/v/nathanielsbarbershop" target="_blank" rel="noopener noreferrer" class="header-btn">Book Now</a>
+  </div>
 </header>
