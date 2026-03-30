@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,22 +9,23 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700;900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
     <style>
-        /* Global CSS Variables - Ensures consistency across all pages */
+        /* * GLOBAL CSS VARIABLES - Extracted directly from your logo 
+         */
         :root {
-            --bg-dark: #121212;
-            --bg-card: #1e1e1e;
-            --accent-gold: #D4AF37;
-            --text-light: #f5f5f5;
-            --text-muted: #a0a0a0;
+            --bg-dark: #08080c; /* Deep dark background to make glows pop */
+            --accent-gold: #f4c430; /* From the Nathaniel's text */
+            --accent-red: #d32f2f; /* From the logo border */
+            --glow-blue: #4a90e2; /* From the background aura */
+            --text-light: #ffffff;
+            --text-muted: #a0aab5;
             --font-heading: 'Cormorant Garamond', serif;
             --font-body: 'Inter', sans-serif;
-            --header-height: 80px;
+            --header-height: 90px;
         }
 
-        /* Modern CSS Reset */
         *, *::before, *::after {
             margin: 0;
             padding: 0;
@@ -41,35 +42,115 @@
             font-family: var(--font-body);
             line-height: 1.6;
             -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            
+            /* LATTICE STYLE BACKGROUND */
+            background-image: 
+              linear-gradient(rgba(74, 144, 226, 0.07) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(74, 144, 226, 0.07) 1px, transparent 1px);
+            background-size: 40px 40px;
+            background-position: center center;
         }
 
-        /* Typography overrides */
+        /* SaaS Style Glowing Background Aura */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -20%;
+            left: -10%;
+            width: 50vw;
+            height: 50vh;
+            background: radial-gradient(circle, rgba(74,144,226,0.15) 0%, transparent 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -20%;
+            right: -10%;
+            width: 50vw;
+            height: 50vh;
+            background: radial-gradient(circle, rgba(244,196,48,0.1) 0%, transparent 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-heading);
             font-weight: 700;
+            text-shadow: 0 0 10px rgba(0,0,0,0.8);
         }
 
-        /* Layout Structure */
         main {
-            flex: 1; /* Pushes the footer to the bottom of the screen on short pages */
-            padding-top: var(--header-height); /* Accounts for the sticky header */
+            flex: 1;
+            padding-top: var(--header-height); 
         }
 
-        /* Global Utility Classes */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        ::selection {
+            background: var(--glow-blue);
+            color: #fff;
+        }
+
+        /* * GLOBAL OVERRIDES: 
+         * This applies the SaaS/Glowing aesthetic to all previously built pages! 
+         */
+        
+        /* Glowing SVG Icons */
+        svg {
+            filter: drop-shadow(0 0 12px var(--accent-gold)) !important;
+            transition: filter 0.3s ease;
         }
         
-        /* Custom Selection Color */
-        ::selection {
-            background: var(--accent-gold);
-            color: #121212;
+        /* SaaS Style Glassmorphism Cards with Blue Glow on Hover */
+        .card, .service-card, .step-card, .faq-item, .review-box {
+            background: rgba(15, 15, 20, 0.6) !important;
+            backdrop-filter: blur(12px) !important;
+            -webkit-backdrop-filter: blur(12px) !important;
+            border: 1px solid rgba(74, 144, 226, 0.2) !important;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card:hover, .service-card:hover {
+            border-color: var(--glow-blue) !important;
+            box-shadow: 0 0 25px rgba(74, 144, 226, 0.3), inset 0 0 15px rgba(74, 144, 226, 0.1) !important;
+        }
+        
+        .card:hover svg, .service-card:hover svg {
+            filter: drop-shadow(0 0 15px var(--glow-blue)) !important;
+            stroke: var(--glow-blue) !important;
+        }
+
+        /* Updated Buttons to match Logo Red/Gold */
+        .btn-gold, .btn-massive {
+            background: linear-gradient(135deg, var(--accent-red) 0%, #a01d1d 100%) !important;
+            color: #ffffff !important;
+            border: 1px solid var(--accent-red) !important;
+            box-shadow: 0 0 20px rgba(211, 47, 47, 0.4) !important;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .btn-gold:hover, .btn-massive:hover {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #d4a017 100%) !important;
+            border-color: var(--accent-gold) !important;
+            box-shadow: 0 0 25px rgba(244, 196, 48, 0.6) !important;
+            color: #000 !important;
+            text-shadow: none;
+        }
+        
+        /* Injecting the checkerboard subtle accent */
+        .section-title::after, .service-hero h1::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            margin: 15px auto 0;
+            background-image: repeating-linear-gradient(45deg, var(--text-light) 0, var(--text-light) 4px, transparent 4px, transparent 8px);
         }
     </style>
 </head>
