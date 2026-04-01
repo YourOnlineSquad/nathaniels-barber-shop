@@ -273,8 +273,82 @@
         filter: drop-shadow(0 0 20px var(--accent-gold));
         transform: scale(1.1);
       }
+/* --- 9. CINEMATIC HERO (FOR INNER PAGES) --- */
+      .hero-cinematic {
+        position: relative;
+        padding: 180px 20px 100px;
+        text-align: center;
+        overflow: hidden;
+      }
+      
+      /* The hidden spotlight glow */
+      .hero-cinematic::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        height: 800px;
+        background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, rgba(0,0,0,0) 60%);
+        z-index: 0;
+        pointer-events: none;
+      }
+      
+      .hero-cinematic > .container { position: relative; z-index: 1; }
+      
+      .eyebrow-text {
+        display: block;
+        color: var(--accent-gold);
+        font-family: var(--font-body);
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+      }
+      
+      .hero-title {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        line-height: 1.1;
+        margin-bottom: 25px;
+        text-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      }
+      
+      /* The glowing gold divider */
+      .accent-line {
+        width: 80px;
+        height: 2px;
+        background: var(--accent-gold);
+        margin: 0 auto 30px;
+        box-shadow: 0 0 15px var(--accent-gold);
+        border-radius: 2px;
+      }
+      
+      .hero-subtitle {
+        font-size: 1.15rem;
+        color: var(--text-muted);
+        max-width: 650px;
+        margin: 0 auto;
+        line-height: 1.8;
+      }
 
-      /* --- MOBILE RESPONSIVENESS --- */
+      /* Clean FAQ List Styling */
+      .faq-list { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+      .faq-item {
+        background: var(--bg-card);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid var(--border-glow);
+        border-radius: 8px;
+        padding: 25px 30px;
+        text-align: left;
+      }
+      .faq-item h4 { color: var(--accent-gold); font-size: 1.2rem; margin-bottom: 15px; font-family: var(--font-body); }
+      .faq-item p { margin-bottom: 0; font-size: 1rem; color: var(--text-muted); line-height: 1.7; }
+
+        /* --- MOBILE RESPONSIVENESS --- */
       @media (max-width: 768px) {
         .navbar { flex-direction: column; gap: 1rem; }
         .nav-menu ul { flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
