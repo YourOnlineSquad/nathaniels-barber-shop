@@ -1,115 +1,150 @@
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-
-<style>
-  /* --- 1. GLOBAL VARIABLES (Easily cloneable for future clients) --- */
-  :root {
-    --color-bg-base: #0a0a0a;
-    --color-bg-surface: #171717;
-    --color-accent-gold: #D4AF37;
-    --color-accent-gold-hover: #b5952f;
-    --color-text-primary: #F8F8F8;
-    --color-text-secondary: #A3A3A3;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
-    
-    --spacing-section: 5rem 1rem;
-    --radius-sm: 4px;
-    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
+    <title>{{ page.title | default: "Nathaniel's Barber Shop | Sioux Falls, SD" }}</title>
+    <meta name="description" content="{{ page.description | default: 'Experience precision cuts, straight razor shaves, and unmatched grooming in a luxury, appointment-only environment in Sioux Falls, SD.' }}">
 
-  /* --- 2. BASE RESET & TYPOGRAPHY --- */
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  
-  body {
-    background-color: var(--color-bg-base);
-    color: var(--color-text-primary);
-    font-family: var(--font-body);
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 
-  h1, h2, h3, h4 {
-    font-family: var(--font-heading);
-    font-weight: 600;
-    color: var(--color-text-primary);
-    margin-bottom: 1rem;
-  }
+    <style>
+      /* --- 1. GLOBAL VARIABLES --- */
+      :root {
+        --color-bg-base: #0a0a0a;
+        --color-bg-surface: #171717;
+        --color-accent-gold: #D4AF37;
+        --color-accent-gold-hover: #b5952f;
+        --color-text-primary: #F8F8F8;
+        --color-text-secondary: #A3A3A3;
+        
+        --font-heading: 'Playfair Display', serif;
+        --font-body: 'Inter', sans-serif;
+        
+        --spacing-section: 5rem 1rem;
+        --radius-sm: 4px;
+        --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
 
-  p { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-  a { text-decoration: none; color: var(--color-accent-gold); transition: var(--transition-smooth); }
-  a:hover { color: var(--color-text-primary); }
+      /* --- 2. BASE RESET & TYPOGRAPHY --- */
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      
+      body {
+        background-color: var(--color-bg-base);
+        color: var(--color-text-primary);
+        font-family: var(--font-body);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
 
-  /* --- 3. REUSABLE LAYOUT CONTAINERS --- */
-  .container {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-  }
+      h1, h2, h3, h4 {
+        font-family: var(--font-heading);
+        font-weight: 600;
+        color: var(--color-text-primary);
+        margin-bottom: 1rem;
+      }
 
-  .section { padding: var(--spacing-section); }
-  
-  .text-center { text-align: center; }
-  
-  /* --- 4. PREMIUM COMPONENTS --- */
-  
-  /* Buttons */
-  .btn-primary {
-    display: inline-block;
-    background-color: var(--color-accent-gold);
-    color: var(--color-bg-base);
-    padding: 0.8rem 2rem;
-    font-family: var(--font-body);
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-radius: var(--radius-sm);
-    border: 1px solid var(--color-accent-gold);
-    transition: var(--transition-smooth);
-    cursor: pointer;
-  }
-  .btn-primary:hover {
-    background-color: transparent;
-    color: var(--color-accent-gold);
-  }
+      p { color: var(--color-text-secondary); margin-bottom: 1.5rem; }
+      a { text-decoration: none; color: var(--color-accent-gold); transition: var(--transition-smooth); }
+      a:hover { color: var(--color-text-primary); }
 
-  /* Hero Section */
-  .hero {
-    padding: 8rem 1rem 6rem;
-    background: linear-gradient(to bottom, rgba(10,10,10,0.8), var(--color-bg-base)), url('{{ site.baseurl }}/assets/hero-bg.jpg') center/cover;
-    text-align: center;
-    border-bottom: 1px solid #222;
-  }
-  .hero h1 { font-size: clamp(2.5rem, 5vw, 4rem); color: var(--color-accent-gold); }
-  .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem; }
+      /* --- 3. REUSABLE LAYOUT CONTAINERS --- */
+      main {
+        flex: 1; /* Pushes the footer to the bottom */
+      }
 
-  /* Service Grid & Cards */
-  .grid-3 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
-  }
-  
-  .card {
-    background-color: var(--color-bg-surface);
-    padding: 2.5rem 2rem;
-    border-radius: var(--radius-sm);
-    border: 1px solid #222;
-    transition: var(--transition-smooth);
-    text-align: center;
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    border-color: var(--color-accent-gold);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  }
-  .card-icon {
-    font-size: 2rem;
-    color: var(--color-accent-gold);
-    margin-bottom: 1rem;
-  }
-</style>
+      .container {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      .section { padding: var(--spacing-section); }
+      
+      .text-center { text-align: center; }
+      
+      /* --- 4. PREMIUM COMPONENTS --- */
+      
+      /* Buttons */
+      .btn-primary {
+        display: inline-block;
+        background-color: var(--color-accent-gold);
+        color: var(--color-bg-base);
+        padding: 0.8rem 2rem;
+        font-family: var(--font-body);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--color-accent-gold);
+        transition: var(--transition-smooth);
+        cursor: pointer;
+      }
+      .btn-primary:hover {
+        background-color: transparent;
+        color: var(--color-accent-gold);
+      }
+
+      /* Hero Section */
+      .hero {
+        padding: 8rem 1rem 6rem;
+        background: linear-gradient(to bottom, rgba(10,10,10,0.8), var(--color-bg-base)), url('{{ site.baseurl }}/assets/hero-bg.jpg') center/cover;
+        text-align: center;
+        border-bottom: 1px solid #222;
+      }
+      .hero h1 { font-size: clamp(2.5rem, 5vw, 4rem); color: var(--color-accent-gold); }
+      .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem; }
+
+      /* Service Grid & Cards */
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+      
+      .card {
+        background-color: var(--color-bg-surface);
+        padding: 2.5rem 2rem;
+        border-radius: var(--radius-sm);
+        border: 1px solid #222;
+        transition: var(--transition-smooth);
+        text-align: center;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        border-color: var(--color-accent-gold);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      }
+      .card-icon {
+        font-size: 2rem;
+        color: var(--color-accent-gold);
+        margin-bottom: 1rem;
+      }
+      
+      .card-icon svg {
+        width: 48px;
+        height: 48px;
+        stroke: var(--color-accent-gold);
+      }
+    </style>
+</head>
+<body>
+
+    {% include header.html %}
+
+    <main>
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+</body>
+</html>
