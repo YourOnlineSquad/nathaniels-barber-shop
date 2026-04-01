@@ -1,6 +1,4 @@
  ---
-layout: default
-title: Book an Appointment | Nathaniel’s Barber Shop in Sioux Falls SD
 ---
 
 <style>
