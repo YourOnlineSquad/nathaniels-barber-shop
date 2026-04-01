@@ -5,12 +5,18 @@
     <nav class="nav-menu">
       <ul>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/services/">Services</a></li>
-        <li><a href="{{ site.baseurl }}/services/mens-haircut">Mens Haircut</a></li>
-        <li><a href="{{ site.baseurl }}/services/beard-trim">Beard Trim</a></li>
-        <li><a href="{{ site.baseurl }}/services/shave">Straight Razor Shave</a></li>
-        <li><a href="{{ site.baseurl }}/services/line-up">Line Up</a></li>
-        <li><a href="{{ site.baseurl }}/services/kids-haircut">Kids Haircut</a></li>
+        
+        <li class="nav-item-dropdown">
+          <a href="{{ site.baseurl }}/services/" style="cursor: pointer;">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl }}/services/mens-haircut">Mens Haircut</a></li>
+            <li><a href="{{ site.baseurl }}/services/beard-trim">Beard Trim</a></li>
+            <li><a href="{{ site.baseurl }}/services/shave">Straight Razor Shave</a></li>
+            <li><a href="{{ site.baseurl }}/services/line-up">Line Up</a></li>
+            <li><a href="{{ site.baseurl }}/services/kids-haircut">Kids Haircut</a></li>
+          </ul>
+        </li>
+
         <li><a href="{{ site.baseurl }}/faq/">FAQ</a></li>
         <li><a href="{{ site.baseurl }}/book/" class="btn-primary">Book Now</a></li>
       </ul>
