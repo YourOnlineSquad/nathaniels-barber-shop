@@ -1,6 +1,5 @@
  ---
-layout: default
-title: Nathaniel’s Barber Shop | High-End Grooming in Sioux Falls SD
+
 ---
 
 <section class="section" style="padding-top: 140px; padding-bottom: 90px; position: relative;">
