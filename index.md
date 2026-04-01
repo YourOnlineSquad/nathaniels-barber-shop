@@ -1,297 +1,80 @@
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: "Nathaniel's Barber Shop | Sioux Falls, SD" }}</title>
+ ---
+layout: default
+title: Nathaniel’s Barber Shop | High-End Grooming in Sioux Falls SD
+---
+
+<section class="section" style="padding-top: 140px; padding-bottom: 90px; position: relative;">
+  <div class="container" style="text-align: center; max-width: 900px;">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,900&display=swap" rel="stylesheet">
+    <h1 style="font-size: clamp(3rem, 6vw, 4.5rem); line-height: 1.1; margin-bottom: 25px; text-shadow: 0 10px 30px rgba(0,0,0,0.8);">
+      Premium <span style="color: var(--accent-gold);">Barber Shop</span><br>in Sioux Falls, SD
+    </h1>
+    
+    <p style="font-size: 1.15rem; color: #b0b8c1; line-height: 1.8; margin-bottom: 45px; padding: 0 20px;">
+      Elevate your style at Nathaniel's Barber Shop, the premier destination for precision haircuts, expert beard grooming, and luxury hot towel shaves in Sioux Falls, South Dakota. Operating strictly by appointment for the modern gentleman.
+    </p>
+    
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="{{ site.baseurl }}/book/" class="btn-primary" style="padding: 16px 40px; font-size: 1.05rem;">Book Your Appointment</a>
+      <a href="{{ site.baseurl }}/services/" class="btn-primary" style="background: transparent; border-color: rgba(255,255,255,0.2); color: #fff !important; box-shadow: none;">View Services</a>
+    </div>
+    
+  </div>
+</section>
 
-    <style>
-      /* --- 1. GLOBAL SaaS & LUXURY VARIABLES --- */
-      :root {
-        --bg-deep-space: #030406; 
-        --bg-card: rgba(15, 18, 25, 0.6);
-        --accent-gold: #d4af37;
-        --accent-red: #a01d1d;
-        --text-light: #ffffff;
-        --text-muted: #a0aab5;
-        --border-glow: rgba(212, 175, 55, 0.2);
-        
-        --font-heading: 'Playfair Display', serif;
-        --font-body: 'Inter', sans-serif;
-        --transition-smooth: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      }
+<section class="section">
+  <div class="container" style="text-align: center;">
+    <h2 class="section-title">Premium Barber Services</h2>
+    <p style="color: var(--text-muted); margin-bottom: 40px;">
+      Explore our most popular services and book the right appointment for your next visit.
+    </p>
 
-      * { box-sizing: border-box; margin: 0; padding: 0; }
-      html { scroll-behavior: smooth; }
-      
-      body {
-        background-color: var(--bg-deep-space);
-        color: var(--text-light);
-        font-family: var(--font-body);
-        line-height: 1.6;
-        -webkit-font-smoothing: antialiased;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        position: relative;
-        overflow-x: hidden;
-      }
+    <div class="card-grid">
+      <a href="{{ site.baseurl }}/services/mens-haircut" class="card">
+        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke-width: 1.5;" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+        <h3>Mens Haircut</h3>
+        <p>Clean fades, classic styles, and modern precision cuts.</p>
+      </a>
 
-      /* --- 2. MOVING SPACE AMBIENCE --- */
-      body::before {
-        content: '';
-        position: fixed;
-        top: 0; left: 0; width: 100vw; height: 200vh;
-        z-index: -1;
-        background-image: 
-            radial-gradient(2px 2px at 20px 30px, #ffffff, rgba(0,0,0,0)),
-            radial-gradient(2px 2px at 150px 80px, rgba(255,255,255,0.8), rgba(0,0,0,0)),
-            radial-gradient(3px 3px at 300px 250px, #ffffff, rgba(0,0,0,0)),
-            radial-gradient(1.5px 1.5px at 80px 350px, var(--accent-gold), rgba(0,0,0,0)),
-            radial-gradient(2.5px 2.5px at 450px 100px, #ffffff, rgba(0,0,0,0)),
-            radial-gradient(3.5px 3.5px at 250px 450px, rgba(255,255,255,0.5), rgba(0,0,0,0)); 
-        background-repeat: repeat;
-        background-size: 400px 400px;
-        animation: moveStars 80s linear infinite;
-      }
+      <a href="{{ site.baseurl }}/services/beard-trim" class="card">
+        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke-width: 1.5;" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M2 14c0-2 2-3 4-3 2.5 0 3.5 1.5 6 1.5s3.5-1.5 6-1.5c2 0 4 1 4 3 0 2.5-3 3-5 3-2 0-3.5-1.5-5-1.5S9 17 7 17c-2 0-5-.5-5-3Z"/></svg>
+        <h3>Beard Trim</h3>
+        <p>Sharp lines, balanced shaping, and a cleaner finished look.</p>
+      </a>
 
-      @keyframes moveStars {
-        from { transform: translateY(0); }
-        to { transform: translateY(-400px); }
-      }
+      <a href="{{ site.baseurl }}/services/shave" class="card">
+        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke-width: 1.5;" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2" ry="2"/><line x1="8" y1="5" x2="8" y2="19"/><line x1="16" y1="5" x2="16" y2="19"/><rect x="10" y="9" width="4" height="6" rx="1"/></svg>
+        <h3>Straight Razor Shave</h3>
+        <p>Hot towel shaving with a smooth luxury finish.</p>
+      </a>
+    </div>
 
-      /* --- 3. TYPOGRAPHY --- */
-      h1, h2, h3, h4 { 
-        font-family: var(--font-heading); 
-        font-weight: 700; 
-        color: var(--text-light); 
-        text-shadow: 0 2px 15px rgba(0,0,0,0.8);
-      }
-      a { text-decoration: none; transition: var(--transition-smooth); }
+    <div style="margin-top: 50px;">
+      <a href="{{ site.baseurl }}/services/" class="btn-primary" style="background: transparent; border-color: rgba(255,255,255,0.2); color: #fff !important; box-shadow: none;">View All Services</a>
+    </div>
+  </div>
+</section>
 
-      /* --- 4. REUSABLE CONTAINERS --- */
-      main { flex: 1; position: relative; z-index: 10; }
-      .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-      .section { padding: 100px 0; }
-      .section-title { text-align: center; color: var(--accent-gold); font-size: 2.5rem; margin-bottom: 3rem; text-shadow: 0 0 15px rgba(212, 175, 55, 0.4); }
+<section class="section">
+  <div class="container" style="text-align: center; max-width: 800px;">
+    <h2 class="section-title">Why Choose Nathaniel</h2>
+    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 20px;">
+      Nathaniel’s Barber Shop delivers a premium appointment based barber experience with focused attention, high quality grooming, and a cleaner, more personal atmosphere.
+    </p>
+    <p style="color: var(--text-muted); font-size: 1.1rem;">
+      Whether you want a fresh haircut, beard clean up, or a traditional straight razor shave, every service is built around detail, consistency, and a sharp finish.
+    </p>
+  </div>
+</section>
 
-      /* --- 5. HEADER & MEGA NAVBAR --- */
-      .site-header {
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        background: rgba(5, 6, 8, 0.75);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        border-bottom: 1px solid var(--border-glow);
-        padding: 1rem 0;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-      }
+<section class="section" style="padding-bottom: 120px;">
+  <div class="container" style="text-align: center;">
+    <h2 class="section-title">Visit Nathaniel’s Barber Shop</h2>
+    <p style="font-size: 1.2rem; color: var(--text-light); margin-bottom: 10px;">1401 W 10th St, Sioux Falls, SD 57104</p>
+    <p style="font-size: 1.1rem; color: var(--accent-gold); font-weight: 600;">Strictly by appointment only</p>
 
-      .navbar { display: flex; justify-content: space-between; align-items: center; }
-      
-      .logo {
-        font-family: var(--font-heading);
-        font-size: 2rem;
-        color: var(--accent-gold);
-        letter-spacing: 1px;
-        font-weight: 900;
-        text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
-      }
-      .logo:hover { transform: scale(1.02); text-shadow: 0 0 25px rgba(212, 175, 55, 0.9); }
-
-      .nav-menu ul {
-        display: flex;
-        list-style: none;
-        gap: 2.5rem;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-      }
-
-      .nav-menu > ul > li > a {
-        color: var(--text-light);
-        font-size: 0.95rem;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        font-weight: 600;
-        display: block;
-        padding: 20px 0;
-      }
-      .nav-menu > ul > li > a:hover { color: var(--accent-gold); text-shadow: 0 0 10px rgba(212, 175, 55, 0.6); }
-
-      /* --- ADVANCED MEGA MENU --- */
-      .nav-item-dropdown { position: relative; }
-
-      .mega-menu {
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%) translateY(20px);
-        width: 680px;
-        background: rgba(10, 12, 18, 0.85);
-        backdrop-filter: blur(30px);
-        -webkit-backdrop-filter: blur(30px);
-        border: 1px solid rgba(212, 175, 55, 0.25);
-        border-radius: 16px;
-        padding: 30px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.9), inset 0 0 20px rgba(212, 175, 55, 0.05);
-        pointer-events: none;
-      }
-
-      .nav-item-dropdown:hover .mega-menu {
-        opacity: 1;
-        visibility: visible;
-        transform: translateX(-50%) translateY(0);
-        pointer-events: auto;
-      }
-
-      .mega-link {
-        display: flex;
-        align-items: flex-start;
-        gap: 18px;
-        padding: 16px;
-        border-radius: 12px;
-        text-decoration: none;
-        border: 1px solid transparent;
-        background: rgba(255, 255, 255, 0.02);
-        transition: var(--transition-smooth);
-      }
-
-      .mega-link:hover {
-        background: rgba(212, 175, 55, 0.08);
-        border-color: rgba(212, 175, 55, 0.3);
-        transform: translateY(-4px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-      }
-
-      .mega-icon {
-        width: 32px;
-        height: 32px;
-        flex-shrink: 0;
-        stroke: var(--accent-gold);
-        stroke-width: 1.5;
-        filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
-        transition: all 0.4s ease;
-      }
-
-      .mega-link:hover .mega-icon {
-        transform: scale(1.15) rotate(5deg);
-        filter: drop-shadow(0 0 15px var(--accent-gold));
-      }
-
-      .mega-text h4 {
-        font-size: 1.1rem;
-        color: var(--text-light);
-        margin-bottom: 4px;
-        font-family: var(--font-heading);
-        text-shadow: none;
-      }
-
-      .mega-text p {
-        font-size: 0.85rem;
-        color: var(--text-muted);
-        line-height: 1.5;
-        margin: 0;
-      }
-
-      /* --- 6. FLOATING GLOWING BUTTONS --- */
-      .btn-primary {
-        display: inline-block;
-        background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.2) 100%);
-        color: var(--accent-gold) !important;
-        padding: 14px 32px;
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        border-radius: 6px;
-        border: 1px solid var(--accent-gold);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(5px);
-      }
-
-      .btn-primary:hover {
-        background: linear-gradient(135deg, var(--accent-red) 0%, #7a1515 100%);
-        color: #ffffff !important;
-        border-color: var(--accent-red);
-        box-shadow: 0 15px 30px rgba(160, 29, 29, 0.6);
-        transform: translateY(-5px) scale(1.03);
-      }
-
-      /* --- 7. GLASSMORPHISM FLOATING CARDS --- */
-      .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; }
-
-      .card {
-        background: var(--bg-card);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(16px);
-        border: 1px solid var(--border-glow);
-        border-radius: 12px;
-        padding: 3rem 2rem;
-        text-align: center;
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
-        animation: floatUpDown 6s ease-in-out infinite;
-        transition: var(--transition-smooth);
-      }
-
-      .card:nth-child(2) { animation-delay: 1s; }
-      .card:nth-child(3) { animation-delay: 2s; }
-
-      @keyframes floatUpDown {
-        0% { transform: translateY(0px); }
-        50% { transform: translateY(-12px); }
-        100% { transform: translateY(0px); }
-      }
-
-      .card:hover {
-        transform: translateY(-20px) scale(1.02);
-        border-color: var(--accent-gold);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9), inset 0 0 20px rgba(212, 175, 55, 0.1);
-        animation-play-state: paused;
-      }
-
-      .card h3 { font-size: 1.6rem; margin-bottom: 1rem; color: var(--text-light); }
-      .card p { color: var(--text-muted); margin-bottom: 1.5rem; }
-
-      /* --- 8. GLOWING VECTOR SVGs --- */
-      svg {
-        filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.5));
-        stroke: var(--accent-gold);
-        transition: all 0.3s ease;
-      }
-      .card:hover svg {
-        filter: drop-shadow(0 0 20px var(--accent-gold));
-        transform: scale(1.1);
-      }
-
-      /* --- MOBILE RESPONSIVENESS --- */
-      @media (max-width: 768px) {
-        .navbar { flex-direction: column; gap: 1rem; }
-        .nav-menu ul { flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
-        .section { padding: 60px 0; }
-        .btn-primary { padding: 12px 24px; }
-      }
-    </style>
-</head>
-<body>
-
-    {% include header.html %}
-
-    <main>
-        {{ content }}
-    </main>
-
-    {% include footer.html %}
-
-</body>
-</html>
+    <div style="margin-top: 40px;">
+      <a href="{{ site.baseurl }}/book/" class="btn-primary">Book Your Appointment</a>
+    </div>
+  </div>
+</section>
