@@ -169,17 +169,17 @@ title: Nathaniel’s Barber Shop in Sioux Falls SD | High-End Grooming
   <h2 class="section-title fade-up">Premium Services</h2>
   <div class="grid fade-up">
     <a href="/services/mens-haircut" class="card">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4L4 20M4 4l16 16M9 9a2 2 0 1 0-4 0 2 2 0 0 0 4 0zm10 10a2 2 0 1 0-4 0 2 2 0 0 0 4 0z"/></svg>
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
       <h3>Mens Haircut</h3>
       <p>Precision tailoring and styling for a sharp, flawless look.</p>
     </a>
     <a href="/services/beard-trim" class="card">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 14c0-2 2-3 4-3 2.5 0 3.5 1.5 6 1.5s3.5-1.5 6-1.5c2 0 4 1 4 3 0 2.5-3 3-5 3-2 0-3.5-1.5-5-1.5S9 17 7 17c-2 0-5-.5-5-3Z"/></svg>
       <h3>Beard Trim</h3>
       <p>Sculpting, lining, and conditioning for the perfect beard.</p>
     </a>
     <a href="/services/shave" class="card">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2" ry="2"/><line x1="8" y1="5" x2="8" y2="19"/><line x1="16" y1="5" x2="16" y2="19"/><rect x="10" y="9" width="4" height="6" rx="1"/></svg>
       <h3>Straight Razor Shave</h3>
       <p>Traditional hot towel shave for ultimate relaxation and smoothness.</p>
     </a>
