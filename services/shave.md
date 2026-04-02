@@ -3,138 +3,78 @@ layout: default
 title: Straight Razor Shave in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
 
-<style>
-  /* Service Page Styles */
-  .service-hero {
-    padding: 80px 20px 40px;
-    text-align: center;
-    background: linear-gradient(180deg, #0a0a0a 0%, var(--bg-dark, #121212) 100%);
-    animation: fadeIn 1s ease-in-out;
-  }
-  .service-hero h1 {
-    font-size: clamp(2rem, 4vw, 3rem);
-    color: var(--accent-gold, #D4AF37);
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-  }
-  .service-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px 80px;
-    color: var(--text-muted, #a0a0a0);
-    line-height: 1.8;
-    font-size: 1.1rem;
-  }
-  .service-content h2 {
-    color: var(--text-light, #f5f5f5);
-    margin: 40px 0 20px;
-    font-size: 1.8rem;
-    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-    padding-bottom: 10px;
-    display: inline-block;
-  }
-  .service-list {
-    list-style: none;
-    padding: 0;
-  }
-  .service-list li {
-    margin-bottom: 15px;
-    position: relative;
-    padding-left: 30px;
-  }
-  .service-list li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: var(--accent-gold, #D4AF37);
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-  .booking-cta {
-    text-align: center;
-    margin: 60px 0;
-    padding: 50px 20px;
-    background: var(--bg-card, #1e1e1e);
-    border-radius: 8px;
-    border: 1px solid rgba(212, 175, 55, 0.2);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  }
-  .btn-gold {
-    background-color: var(--accent-gold, #D4AF37);
-    color: #121212;
-    padding: 16px 36px;
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 4px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    transition: all 0.3s ease;
-    display: inline-block;
-  }
-  .btn-gold:hover {
-    background-color: #b5952f;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
-  }
-  .related-services {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-  }
-  .related-link {
-    color: var(--accent-gold, #D4AF37);
-    text-decoration: none;
-    border: 1px solid var(--accent-gold, #D4AF37);
-    padding: 10px 20px;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  .related-link:hover {
-    background: var(--accent-gold, #D4AF37);
-    color: #121212;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-</style>
-
-<div class="service-hero">
-  <h1>Straight Razor Shave in Sioux Falls SD</h1>
-  <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: var(--text-muted, #a0a0a0);">The ultimate traditional grooming and relaxation experience.</p>
-</div>
-
-<div class="service-content">
-  <p>There is nothing quite like the luxury of a traditional hot towel shave. At Nathaniel’s Barber Shop, our Straight Razor Shave in Sioux Falls SD is more than just hair removal—it is a meticulous, relaxing ritual designed to rejuvenate your skin and provide the closest, smoothest shave possible.</p>
-
-  <h2>What’s Included</h2>
-  <ul class="service-list">
-    <li><strong>Hot Towel Preparation:</strong> Multiple steaming hot towels infused with essential oils to open pores, soften the hair, and deeply relax facial muscles.</li>
-    <li><strong>Pre-Shave Oil & Warm Lather:</strong> Application of premium pre-shave oil followed by a rich, thick lather applied with a traditional badger hair brush to protect the skin.</li>
-    <li><strong>Precision Razor Work:</strong> A masterful, multi-pass shave using a fresh, ultra-sharp straight razor for an impossibly smooth finish.</li>
-    <li><strong>Cold Towel & Aftershave Balm:</strong> A refreshing cold towel to close the pores, followed by a soothing, alcohol-free aftershave balm to hydrate and protect.</li>
-  </ul>
-
-  <h2>Who It’s For</h2>
-  <p>This service is perfect for the gentleman looking to treat himself to a moment of pure relaxation. It is highly recommended for grooms preparing for their wedding day, businessmen needing a flawless look for an important event, or anyone who appreciates the timeless art of traditional barbering.</p>
-
-  <h2>Why Choose Nathaniel?</h2>
-  <p>A straight razor shave requires absolute trust, mastery of the blade, and rigorous sanitary practices. Nathaniel provides a safe, hygienic, and incredibly comfortable experience. Lean back in our premium barber chair, close your eyes, and let an expert handle the rest.</p>
-
-  <div class="booking-cta">
-    <h3 style="color: #f5f5f5; margin-bottom: 20px; font-size: 1.8rem; font-weight: 600;">Experience the Ultimate Shave</h3>
-    <a href="https://www.styleseat.com/" class="btn-gold" target="_blank" rel="noopener noreferrer">Book Your Shave Now</a>
+<header class="hero-cinematic">
+  <div class="container" style="max-width: 1000px;">
+    <span class="eyebrow-text">Luxury Grooming Ritual</span>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Straight Razor Shave</h1>
+    <div class="accent-line"></div>
+    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px;">The ultimate traditional grooming and relaxation experience in Sioux Falls SD. Rejuvenate your skin and experience the closest and smoothest shave possible.</p>
   </div>
+</header>
 
-  <h2 style="text-align: center; display: block; border-bottom: none; margin-top: 60px;">Explore Related Services</h2>
-  <div class="related-services">
-    <a href="/services/mens-haircut" class="related-link">Mens Haircut</a>
-    <a href="/services/beard-trim" class="related-link">Beard Trim</a>
+<section class="section" style="padding-top: 20px;">
+  <div class="container" style="max-width: 1100px; text-align: center;">
+
+    <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
+      There is nothing quite like the luxury of a traditional hot towel shave. At Nathaniels Barber Shop our Straight Razor Shave is more than just hair removal. It is a meticulous and deeply relaxing ritual designed by our master barbers to rejuvenate your skin while providing a flawless finish.
+    </p>
+
+    <h3 style="color: var(--text-light); margin-bottom: 30px; font-size: 27px;">What Is Included</h3>
+    
+    <div style="text-align: left; background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: 12px; padding: 50px; backdrop-filter: blur(16px); box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); margin-bottom: 80px;">
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+        <div>
+          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Hot Towel Preparation:</strong></p>
+          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">Multiple steaming hot towels infused with essential oils to open your pores soften the hair follicles and deeply relax your facial muscles.</p>
+        </div>
+        
+        <div>
+          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Pre Shave Oil and Warm Lather:</strong></p>
+          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">The application of premium protective oil followed by a rich and thick lather applied with a traditional badger hair brush.</p>
+        </div>
+        
+        <div>
+          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Precision Razor Work:</strong></p>
+          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">A masterful multi pass shave using a fresh and ultra sharp straight razor ensuring an impossibly smooth and comfortable finish.</p>
+        </div>
+        
+        <div>
+          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Cold Towel and Aftershave Balm:</strong></p>
+          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">A refreshing cold towel to securely close the pores followed by a soothing and alcohol free aftershave balm to hydrate the skin.</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 60px; margin-bottom: 80px; text-align: left;">
+      
+      <div>
+        <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 27px;">Who It Is For</h3>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8;">
+          This service is perfect for the gentleman looking to treat himself to a moment of pure relaxation. It is highly recommended for grooms preparing for their wedding day businessmen needing a flawless look for an important event or anyone who appreciates the timeless art of traditional barbering.
+        </p>
+      </div>
+
+      <div>
+        <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 27px;">Why Choose Nathaniel?</h3>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8;">
+          A straight razor shave requires absolute trust a total mastery of the blade and rigorous sanitary practices. Nathaniel provides a safe hygienic and incredibly comfortable experience. Lean back in our premium barber chair close your eyes and let an expert handle the rest.
+        </p>
+      </div>
+
+    </div>
+
+    <div style="padding: 60px 20px; background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; margin-bottom: 80px;">
+      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Experience the Ultimate Shave</h3>
+      <a href="{{ site.baseurl }}/book/" class="btn-primary">Book Your Shave Now</a>
+    </div>
+
+    <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h3>
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="{{ site.baseurl }}/services/mens-haircut" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Mens Haircut</a>
+      <a href="{{ site.baseurl }}/services/beard-trim" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Beard Trim</a>
+    </div>
+
   </div>
-</div>
+</section>
