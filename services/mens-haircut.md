@@ -6,7 +6,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 <header class="hero-cinematic">
   <div class="container" style="max-width: 1000px;">
     <span class="eyebrow-text">The Nathaniel’s Standard</span>
-    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Mens Haircut</h1>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Mens Haircut in Sioux Falls SD</h1>
     <div class="accent-line"></div>
     <p class="hero-subtitle" style="font-size: 20px; max-width: 800px;">As the premier destination for a mens haircut in Sioux Falls SD we provide a highly customized technical grooming service. Our focus is on structural precision and masterful technique designed for gentlemen in the Sioux Empire who command the highest standard of traditional barbering.</p>
   </div>
@@ -16,7 +16,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
   <div class="container" style="max-width: 1100px; text-align: center;">
 
     <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
-      <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Master barber providing a tailored mens haircut and grooming service in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+      <img src="https://images.unsplash.com/photo-1621605815841-aa88986b231a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTkyMXwwfDF8c2VhcmNofDh8fG1lbnMlMjBoYWlyY3V0fGVufDB8fHx8MTY4MTM5NzUzMw&ixlib=rb-4.0.3&q=80&w=1200" alt="A master barber carefully executes a precision taper haircut on a client in a high-end Sioux Falls barber shop, providing a tailored grooming experience." style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
