@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
@@ -14,6 +14,10 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 
 <section class="section" style="padding-top: 20px;">
   <div class="container" style="max-width: 1100px; text-align: center;">
+
+    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
+      <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Master barber providing a tailored mens haircut and grooming service in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+    </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
       Finding a master barber in Sioux Falls SD should not be a gamble. Your haircut is the blueprint of your personal style. We reject the rushed assembly line approach. Every gentleman who sits in our chair receives a sophisticated focused session tailored exactly to his unique head shape hair density and daily lifestyle.
