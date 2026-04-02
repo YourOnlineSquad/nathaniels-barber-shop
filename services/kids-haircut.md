@@ -4,70 +4,111 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
 
 <header class="hero-cinematic">
-  <div class="container" style="max-width: 1000px;">
-    <span class="eyebrow-text">Signature Kids Service</span>
-    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Kids Haircut</h1>
+  <div class="container" style="max-width: 1000px; padding: 0 20px;">
+    <span class="eyebrow-text">Junior Barbering</span>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Kids Haircut in Sioux Falls, SD</h1>
     <div class="accent-line"></div>
-    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px;">Expert haircuts with the patience and care your child deserves. We ensure young gentlemen in Sioux Falls leave looking sharp and feeling confident in a calm, professional environment.</p>
+    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Premium barbering isn't just for adults. We provide a calm, precise, and sophisticated haircutting experience designed specifically for the young gentlemen of the Sioux Empire.</p>
   </div>
 </header>
 
 <section class="section" style="padding-top: 20px;">
-  <div class="container" style="max-width: 1100px; text-align: center;">
+  <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
+
+    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
+      <img src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=1200&q=80" alt="Master barber giving a precision kids haircut in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+    </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
-      A great kids haircut requires more than just technical skill; it requires genuine patience and experience. At Nathaniel’s Barber Shop, we blend advanced barbering techniques with a calm, welcoming approach. We provide top tier haircuts that look impeccable while ensuring your child feels completely comfortable and respected in the chair.
+      Finding a barber who is both technically skilled and patient with children can be a challenge. At Nathaniel's Barber Shop, we treat our junior clients with the exact same respect and uncompromised craftsmanship as our adults. We reject the rushed, "assembly-line" kid cuts. Instead, we deliver a relaxed, professional session that results in a sharp, easily manageable style.
     </p>
 
-    <h3 style="color: var(--text-light); margin-bottom: 30px; font-size: 27px;">What Is Included</h3>
+    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px;"></div>
+
+    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Barbering</h3>
     
-    <div style="text-align: left; background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: 12px; padding: 50px; backdrop-filter: blur(16px); box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); margin-bottom: 80px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Collaborative Consultation:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">We listen to both you and your child to perfectly understand the desired style, ensuring the final look meets your expectations and suits their specific hair type.</p>
-        </div>
-        
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Gentle, Expert Execution:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">Masterful shear and clipper work performed with the specialized care, steady hand, and patience required for younger clients.</p>
-        </div>
-        
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Flawless Detailing:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">Crisp, safe line ups around the ears and neckline for a polished finish that maintains its shape perfectly as it grows out.</p>
-        </div>
-        
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Professional Styling Advice:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">Finished with premium, kid friendly products and practical tips for parents to easily manage the style at home.</p>
-        </div>
+      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">A Calm Environment</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">Haircuts can be overwhelming for younger clients. Our private, one-on-one shop environment eliminates the loud noises and chaotic waiting rooms, providing a peaceful, sensory-friendly experience.</p>
+      </div>
+      
+      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
+        </svg>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Uncompromised Skill</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We do not lower our standards for junior cuts. Your child will receive the same structural fading, masterful scissor work, and precision detailing that has made our shop a staple in the community.</p>
+      </div>
+      
+      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+        </svg>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Parent-Friendly Styling</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We design cuts that look incredible leaving the chair, but more importantly, we create shapes that are easy for parents to manage and style on busy weekday mornings.</p>
       </div>
       
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 60px; margin-bottom: 80px; text-align: left;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
-      <div>
-        <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 27px;">Who It Is For</h3>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8;">
-          Whether you need a clean cut for family photos, a sharp look for back to school, or just reliable, routine maintenance, this service is designed for boys who deserve a high quality barbering experience. We cater to all hair types and styles with professional precision.
-        </p>
+      <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.6);">
+        <img src="https://images.unsplash.com/photo-1521369527715-e26b1fb0fbd0?auto=format&fit=crop&w=800&q=80" alt="Professional and calm kids haircut experience at a luxury barber shop in Sioux Falls" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
       <div>
-        <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 27px;">Why Choose Nathaniel?</h3>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8;">
-          Traditional salons can be loud, unpredictable, and overwhelming for children. By operating strictly on an appointment only basis, Nathaniel provides a dedicated, uninterrupted time slot in a controlled, relaxing atmosphere. You get peace of mind knowing an experienced barber is giving your child premium, undivided attention.
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Building Confidence</h3>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
+          A great haircut does wonders for a young man's confidence. Whether it is for back-to-school photos, a special event in Minnehaha County, or just routine maintenance, we work with parents and kids to find a style they genuinely love and feel proud to wear.
+        </p>
+
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Unrushed Promise</h3>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
+          Children can be unpredictable, and that is perfectly okay. By operating entirely on an appointment-only schedule, we ensure we have ample time blocked out. We never rush a service, allowing us to adapt to the child's pace and ensure maximum safety and precision.
         </p>
       </div>
 
     </div>
 
-    <div style="padding: 60px 20px; background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; margin-bottom: 80px;">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Secure a Spot for the Young Gentleman</h3>
-      <a href="{{ site.baseurl }}/book/" class="btn-primary">Book a Kids Haircut Now</a>
+    <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 60px 20px; margin-bottom: 80px; background: linear-gradient(90deg, transparent, rgba(10, 12, 18, 0.8), transparent);">
+      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Book Their Next Haircut</h3>
+      <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
+    </div>
+
+    <h3 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h3>
+    
+    <div style="max-width: 800px; margin: 0 auto 80px; text-align: left;">
+      
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What is the age limit for a kids haircut?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We welcome junior clients of all ages, provided they are able to sit relatively independently in the barber chair. Safety is our top priority when working with sharp shears and clippers.</p>
+      </details>
+
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">How much time is blocked out for this service?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We block out the exact same amount of time for a junior cut as we do an adult cut. We refuse to rush the process, ensuring your child stays comfortable and the final result is absolutely precise.</p>
+      </details>
+
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Do you take walk ins or do I need an appointment?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Nathaniel operates strictly by appointment only. This is especially beneficial for children, as it guarantees they won't have to wait in a crowded, noisy lobby before their turn.</p>
+      </details>
+
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What is your cancellation and deposit policy?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We require a deposit to secure your booking. If you cannot make your appointment, we kindly ask for over twenty four hours of notice. Without ample notification, we lose vital revenue for that specific time slot, so the deposit will be retained.</p>
+      </details>
+      
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Where exactly is your shop located?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We operate out of a premium private physical location right here in Sioux Falls SD. You will receive exact directions and details upon completing your secure booking through our StyleSeat portal.</p>
+      </details>
+
     </div>
 
     <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h3>
