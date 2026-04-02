@@ -4,19 +4,19 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
 
 <header class="hero-cinematic">
-  <div class="container" style="max-width: 1000px;">
+  <div class="container" style="max-width: 1000px; padding: 0 20px;">
     <span class="eyebrow-text">The Nathaniel’s Standard</span>
     <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Mens Haircut in Sioux Falls SD</h1>
     <div class="accent-line"></div>
-    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px;">As the premier destination for a mens haircut in Sioux Falls SD we provide a highly customized technical grooming service. Our focus is on structural precision and masterful technique designed for gentlemen in the Sioux Empire who command the highest standard of traditional barbering.</p>
+    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">As the premier destination for a mens haircut in Sioux Falls SD we provide a highly customized technical grooming service. Our focus is on structural precision and masterful technique designed for gentlemen in the Sioux Empire who command the highest standard of traditional barbering.</p>
   </div>
 </header>
 
 <section class="section" style="padding-top: 20px;">
-  <div class="container" style="max-width: 1100px; text-align: center;">
+  <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
 
     <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
-      <img src="https://images.unsplash.com/photo-1621605815841-aa88986b231a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTkyMXwwfDF8c2VhcmNofDh8fG1lbnMlMjBoYWlyY3V0fGVufDB8fHx8MTY4MTM5NzUzMw&ixlib=rb-4.0.3&q=80&w=1200" alt="A master barber carefully executes a precision taper haircut on a client in a high-end Sioux Falls barber shop, providing a tailored grooming experience." style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+      <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80" alt="A master barber carefully executes a precision taper haircut on a client in a high-end Sioux Falls barber shop, providing a tailored grooming experience." style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
@@ -30,7 +30,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
       <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
-        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6)); animation: floatUpDown 5s ease-in-out infinite;" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 2h14v6H5z" /><path d="M7 8h10v12a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V8z" /><line x1="9" y1="2" x2="9" y2="6" /><line x1="12" y1="2" x2="12" y2="6" /><line x1="15" y1="2" x2="15" y2="6" />
         </svg>
         <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Structural Fades</strong></p>
@@ -38,7 +38,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       </div>
       
       <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
-        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6)); animation: floatUpDown 6s ease-in-out infinite;" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
         </svg>
         <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Classic Cuts</strong></p>
@@ -46,7 +46,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       </div>
       
       <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
-        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6)); animation: floatUpDown 7s ease-in-out infinite;" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
           <rect x="2" y="7" width="20" height="10" rx="2" ry="2"/><line x1="6" y1="17" x2="6" y2="11"/><line x1="10" y1="17" x2="10" y2="11"/><line x1="14" y1="17" x2="14" y2="11"/><line x1="18" y1="17" x2="18" y2="11"/>
         </svg>
         <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Textured Shape</strong></p>
@@ -55,10 +55,10 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
       <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.6);">
-        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Master barber Nathaniel performing a precision skin fade in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80" alt="Master barber Nathaniel performing a precision skin fade in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
       <div>
