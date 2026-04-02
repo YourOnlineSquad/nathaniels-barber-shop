@@ -1,4 +1,4 @@
- **---
+---
 layout: default
 title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
