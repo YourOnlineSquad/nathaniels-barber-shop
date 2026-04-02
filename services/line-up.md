@@ -6,7 +6,7 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
 <header class="hero-cinematic">
   <div class="container" style="max-width: 1000px; padding: 0 20px;">
     <span class="eyebrow-text">The Finishing Touch</span>
-    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Precision Line Up</h1>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Precision Hair Line Up in Sioux Falls, SD </h1>
     <div class="accent-line"></div>
     <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Restore your sharpest edges. Our precision line up service in Sioux Falls SD is engineered to refresh your look with razor-sharp contours around the hairline, beard, and neck.</p>
   </div>
