@@ -5,10 +5,10 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 
 <header class="hero-cinematic">
   <div class="container">
-    <span class="eyebrow-text">Youth Grooming</span>
-    <h1 class="hero-title">Kids Haircut</h1>
+    <span class="eyebrow-text">Signature Kids Service</span>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Kids Haircut</h1>
     <div class="accent-line"></div>
-    <p class="hero-subtitle">Quality grooming and patience for the next generation in Sioux Falls, SD. Ensuring the young gentlemen leave looking just as sharp and confident as their dads.</p>
+    <p class="hero-subtitle">Expert haircuts with the patience and care your child deserves. We ensure young gentlemen in Sioux Falls leave looking sharp and feeling confident in a calm, professional environment.</p>
   </div>
 </header>
 
@@ -16,34 +16,37 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
   <div class="container" style="max-width: 800px; text-align: center;">
 
     <p style="color: var(--text-muted); font-size: 1.15rem; line-height: 1.8; margin-bottom: 50px;">
-      Style is not just for adults. At Nathaniel’s Barber Shop, we combine our high-end cutting techniques with a patient, welcoming approach, providing top-tier kids haircuts that look incredible and feel respectful of your child's needs.
+      A great kids haircut requires more than just technical skill; it requires genuine patience and experience. At Nathaniel’s Barber Shop, we blend advanced barbering techniques with a calm, welcoming approach. We provide top tier haircuts that look impeccable while ensuring your child feels completely comfortable and respected in the chair.
     </p>
 
-    <h3 style="color: var(--text-light); margin-bottom: 20px;">What's Included</h3>
+    <h3 style="color: var(--text-light); margin-bottom: 25px; font-size: 2rem;">What Is Included</h3>
     
     <div style="text-align: left; background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px; backdrop-filter: blur(16px); box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); margin-bottom: 60px;">
-      <p style="font-size: 1.05rem;"><strong style="color: var(--accent-gold);">✓ Parent & Child Consultation:</strong> A thoughtful, personalized conversation to ensure we perfectly understand the ideal length and style before any cutting begins.</p>
-      <p style="font-size: 1.05rem;"><strong style="color: var(--accent-gold);">✓ Gentle, Precision Haircut:</strong> Masterful clipper and shear work executed with extra care and patience tailored specifically for younger clients.</p>
-      <p style="font-size: 1.05rem;"><strong style="color: var(--accent-gold);">✓ Clean Edges:</strong> Crisp line-ups around the ears and neck for a polished finish that keeps them looking sharp longer.</p>
-      <p style="font-size: 1.05rem;"><strong style="color: var(--accent-gold);">✓ Styling & Home Maintenance:</strong> Finished with premium products and simple, practical tips on how to manage their hair easily at home.</p>
+      <p style="font-size: 1.25rem; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Collaborative Consultation:</strong> We listen to both you and your child to perfectly understand the desired style, ensuring the final look meets your expectations and suits their specific hair type.</p>
+      
+      <p style="font-size: 1.25rem; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Gentle, Expert Execution:</strong> Masterful shear and clipper work performed with the specialized care, steady hand, and patience required for younger clients.</p>
+      
+      <p style="font-size: 1.25rem; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Flawless Detailing:</strong> Crisp, safe line ups around the ears and neckline for a polished finish that maintains its shape perfectly as it grows out.</p>
+      
+      <p style="font-size: 1.25rem; margin-bottom: 0; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Professional Styling Advice:</strong> Finished with premium, kid friendly products and practical tips for parents to easily manage the style at home.</p>
     </div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 15px;">Who It’s For</h3>
-    <p style="color: var(--text-muted); font-size: 1.15rem; line-height: 1.8; margin-bottom: 40px;">
-      Whether a boy needs routine maintenance, a classic back-to-school picture cut, or a perfect style for a special family event, this service is tailored to meet those distinct needs in a professional environment.
+    <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 2rem;">Who It Is For</h3>
+    <p style="color: var(--text-muted); font-size: 1.15rem; line-height: 1.8; margin-bottom: 50px;">
+      Whether you need a clean cut for family photos, a sharp look for back to school, or just reliable, routine maintenance, this service is designed for boys who deserve a high quality barbering experience. We cater to all hair types and styles with professional precision.
     </p>
 
-    <h3 style="color: var(--text-light); margin-bottom: 15px;">Why Choose Nathaniel?</h3>
+    <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 2rem;">Why Choose Nathaniel?</h3>
     <p style="color: var(--text-muted); font-size: 1.15rem; line-height: 1.8; margin-bottom: 60px;">
-      Traditional barber shops can be loud, crowded, and overwhelming for children, often leading to rushed, stressful haircuts. By operating strictly by appointment, your child receives a dedicated time slot in a calm, private atmosphere—no long waits, just premium, undivided attention.
+      Traditional salons can be loud, unpredictable, and overwhelming for children. By operating strictly on an appointment only basis, Nathaniel provides a dedicated, uninterrupted time slot in a controlled, relaxing atmosphere. You get peace of mind knowing an experienced barber is giving your child premium, undivided attention without the rush of a crowded waiting room.
     </p>
 
     <div style="padding: 50px 20px; background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; margin-bottom: 60px;">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 1.8rem;">Book a Spot for the Young Gentleman</h3>
+      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 2rem;">Secure a Spot for the Young Gentleman</h3>
       <a href="{{ site.baseurl }}/book/" class="btn-primary">Book a Kids Haircut Now</a>
     </div>
 
-    <h3 style="margin-bottom: 30px; color: var(--text-light);">Explore Related Services</h3>
+    <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 1.75rem;">Explore Related Services</h3>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="{{ site.baseurl }}/services/mens-haircut" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 0.85rem; padding: 12px 24px; box-shadow: none;">Mens Haircut</a>
       <a href="{{ site.baseurl }}/services/line-up" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 0.85rem; padding: 12px 24px; box-shadow: none;">Line Up</a>
