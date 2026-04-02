@@ -1,72 +1,25 @@
----
-layout: default
-title: Premium Barber Services in Sioux Falls, SD | Nathaniel’s Barber Shop
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: "Nathaniel's Barber Shop" }}</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,900&display=swap" rel="stylesheet">
 
-<header class="hero-cinematic">
-  <div class="container" style="max-width: 1000px; padding: 0 20px;">
-    <span class="eyebrow-text">Master Craftsmanship</span>
-    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Barber Services in Sioux Falls, SD</h1>
-    <div class="accent-line"></div>
-    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Explore our comprehensive menu of premium barbering services. Every appointment is a private, focused session dedicated to structural precision and the highest standard of personal maintenance.</p>
-  </div>
-</header>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
 
-<section class="section" style="padding-top: 20px;">
-  <div class="container" style="max-width: 1200px; text-align: center; padding: 0 20px;">
+    {% include header.html %}
 
-    <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 80px; max-width: 900px;">
-      At Nathaniel's Barber Shop, we believe that your personal style is your greatest asset. Operating out of our private studio in the Sioux Empire, we offer a sanctuary for the modern gentleman. Whether you require a flawless skin fade, meticulous beard styling, or a traditional hot towel shave, our services are engineered to provide uncompromised results.
-    </p>
+    <main>
+        {{ content }}
+    </main>
 
-    <div class="card-grid" style="margin-bottom: 100px; text-align: center;">
-      
-      <a href="{{ site.baseurl }}/services/mens-haircut" class="card" style="display: block; text-decoration: none;">
-        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke: var(--accent-gold); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;" viewBox="0 0 24 24">
-          <path d="M12 2v20"/><path d="m19 8-7 7-7-7"/><path d="M12 10v8"/><path d="m19 16-7 7-7-7"/>
-        </svg>
-        <h3 style="color: var(--text-light); font-size: 24px; margin-bottom: 15px;">Mens Haircut</h3>
-        <p style="color: var(--text-muted); font-size: 18px; line-height: 1.6; margin: 0;">A deeply customized, technical haircut focusing on structural precision. From flawless fades to classic gentleman tapers.</p>
-      </a>
+    {% include footer.html %}
 
-      <a href="{{ site.baseurl }}/services/beard-trim" class="card" style="display: block; text-decoration: none;">
-        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke: var(--accent-gold); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;" viewBox="0 0 24 24">
-          <path d="M14.5 4h5v5"/><path d="M19.5 4 14 9.5"/><path d="M9.5 20h-5v-5"/><path d="M4.5 20 10 14.5"/><circle cx="12" cy="12" r="2.5"/>
-        </svg>
-        <h3 style="color: var(--text-light); font-size: 24px; margin-bottom: 15px;">Beard Trim</h3>
-        <p style="color: var(--text-muted); font-size: 18px; line-height: 1.6; margin: 0;">Expert sculpting, shaping, and conditioning. Complete with a straight razor line up to provide maximum contrast and a sharp silhouette.</p>
-      </a>
-
-      <a href="{{ site.baseurl }}/services/shave" class="card" style="display: block; text-decoration: none;">
-        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke: var(--accent-gold); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;" viewBox="0 0 24 24">
-          <path d="M12 4v4M8 4v6M16 4v5M4 14a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2z"/>
-        </svg>
-        <h3 style="color: var(--text-light); font-size: 24px; margin-bottom: 15px;">Straight Razor Shave</h3>
-        <p style="color: var(--text-muted); font-size: 18px; line-height: 1.6; margin: 0;">The ultimate relaxation experience. Featuring traditional hot towel treatments, warm lather, and an impeccably close single-blade finish.</p>
-      </a>
-
-      <a href="{{ site.baseurl }}/services/line-up" class="card" style="display: block; text-decoration: none;">
-        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke: var(--accent-gold); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;" viewBox="0 0 24 24">
-          <path d="M4 19V5a2 2 0 0 1 2-2h13.4a.5.5 0 0 1 .49.6l-2.11 10.55A2 2 0 0 1 16 16H6.5"/><path d="M4 19a2 2 0 0 0 2 2h14"/>
-        </svg>
-        <h3 style="color: var(--text-light); font-size: 24px; margin-bottom: 15px;">Precision Line Up</h3>
-        <p style="color: var(--text-muted); font-size: 18px; line-height: 1.6; margin: 0;">The perfect maintenance visit between cuts. We restore razor-sharp contours around your hairline, neck, and beard edges.</p>
-      </a>
-
-      <a href="{{ site.baseurl }}/services/kids-haircut" class="card" style="display: block; text-decoration: none;">
-        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke: var(--accent-gold); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;" viewBox="0 0 24 24">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-        </svg>
-        <h3 style="color: var(--text-light); font-size: 24px; margin-bottom: 15px;">Kids Haircut</h3>
-        <p style="color: var(--text-muted); font-size: 18px; line-height: 1.6; margin: 0;">A calm, patient, and unrushed environment for junior clients. Delivering the same master-level styling and precision as our adult services.</p>
-      </a>
-
-    </div>
-
-    <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 60px 20px; margin-bottom: 40px; background: linear-gradient(90deg, transparent, rgba(10, 12, 18, 0.8), transparent);">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Secure Your Appointment Today</h3>
-      <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
-    </div>
-
-  </div>
-</section>
+</body>
+</html>
