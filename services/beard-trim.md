@@ -5,7 +5,7 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 
 <header class="hero-cinematic">
   <div class="container" style="max-width: 1000px; padding: 0 20px;">
-    <span class="eyebrow-text">Signature Grooming</span>
+    <span class="eyebrow-text">Signature Maintenance</span>
     <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Beard Trim</h1>
     <div class="accent-line"></div>
     <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Expert sculpting and conditioning for the perfect beard in Sioux Falls SD. Elevate your facial hair from unruly to undeniably sharp with our master barbers.</p>
@@ -69,7 +69,7 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 
         <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Unrushed Experience</h3>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
-          Beard grooming is a true art form that requires patience and a steady hand. By choosing our shop you are trusting a professional who understands the nuances of facial hair. We take the dedicated time needed to get every single angle flawless.
+          Beard styling is a true art form that requires patience and a steady hand. By choosing our shop you are trusting a professional who understands the nuances of facial hair. We take the dedicated time needed to get every single angle flawless.
         </p>
       </div>
 
@@ -91,7 +91,7 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 
       <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
         <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Do you outline with a straight razor?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Absolutely. Every premium beard grooming service includes traditional straight razor detailing along the cheeks and neckline to create the sharpest possible contrast.</p>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Absolutely. Every premium beard service includes traditional straight razor detailing along the cheeks and neckline to create the sharpest possible contrast.</p>
       </details>
 
       <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
