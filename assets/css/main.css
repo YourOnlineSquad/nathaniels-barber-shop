@@ -346,3 +346,47 @@ svg {
   .section { padding: 60px 0; }
   .btn-primary { padding: 12px 24px; }
 }
+/* --- 11. MASTER ICON STYLING & FLOATING --- */
+.service-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 25px;
+  display: block;
+  stroke: var(--accent-gold);
+  stroke-width: 1.5;
+  fill: none;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3));
+  transition: var(--transition-smooth);
+}
+
+.float-element {
+  animation: floatUpDown 6s ease-in-out infinite;
+}
+
+/* Enhances the glow on hover */
+.card:hover .service-icon {
+  transform: scale(1.1) rotate(5deg);
+  filter: drop-shadow(0 0 15px var(--accent-gold));
+}
+
+/* --- 12. DROPDOWN ACCORDION FAQ (Synced Styling) --- */
+.faq-details {
+  border-bottom: 1px solid var(--border-glow);
+  padding: 20px 0;
+}
+
+.faq-summary {
+  font-size: 22px;
+  color: var(--accent-gold);
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.faq-answer {
+  color: var(--text-muted);
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
