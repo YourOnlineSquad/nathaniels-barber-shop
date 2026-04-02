@@ -5,10 +5,10 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 
 <header class="hero-cinematic">
   <div class="container" style="max-width: 1000px; padding: 0 20px;">
-    <span class="eyebrow-text">Junior Grooming</span>
+    <span class="eyebrow-text">Junior Barbering</span>
     <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Kids Haircut in Sioux Falls, SD</h1>
     <div class="accent-line"></div>
-    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Premium grooming isn't just for adults. We provide a calm, precise, and sophisticated haircutting experience designed specifically for the young gentlemen of the Sioux Empire.</p>
+    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Premium barbering isn't just for adults. We provide a calm, precise, and sophisticated haircutting experience designed specifically for the young gentlemen of the Sioux Empire.</p>
   </div>
 </header>
 
@@ -25,7 +25,7 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 
     <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px;"></div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Grooming</h3>
+    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Barbering</h3>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
@@ -64,7 +64,7 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       <div>
         <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Building Confidence</h3>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
-          A great haircut does wonders for a young man's confidence. Whether it is for back-to-school photos, a special event in Minnehaha County, or just routine grooming, we work with parents and kids to find a style they genuinely love and feel proud to wear.
+          A great haircut does wonders for a young man's confidence. Whether it is for back-to-school photos, a special event in Minnehaha County, or just routine maintenance, we work with parents and kids to find a style they genuinely love and feel proud to wear.
         </p>
 
         <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Unrushed Promise</h3>
