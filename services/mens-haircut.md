@@ -23,7 +23,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 
     <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Core Masteries</h3>
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 100px; text-align: left;">
       
       <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
         <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6)); animation: floatUpDown 5s ease-in-out infinite;" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -51,19 +51,21 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 80px; margin-bottom: 100px; text-align: left; padding: 0 20px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center;">
       
-      <div>
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px; border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding-bottom: 15px;">The Consultation</h3>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
-          We perform a rigorous structural analysis before the cape even goes on. We examine your natural growth patterns and head shape to establish a master blueprint ensuring we are in total alignment with your specific goals.
-        </p>
+      <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.6);">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Master barber Nathaniel performing a precision skin fade in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
       <div>
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px; border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding-bottom: 15px;">Uninterrupted Focus</h3>
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Sioux Falls Consultation Standard</h3>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
+          We perform a rigorous structural analysis before the cape even goes on. We examine your natural growth patterns and head shape to establish a master blueprint. This ensures we are in total alignment with your specific goals providing the most personalized haircut in Minnehaha County.
+        </p>
+
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Private Grooming in the Sioux Empire</h3>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
-          Premium service demands undivided concentration. Our strictly appointment only model guarantees you receive our total focus in a calm private environment away from the noise of crowded waiting rooms.
+          Premium service demands undivided concentration. Our strictly appointment only model guarantees you receive our total focus in a calm private environment away from the noise of crowded waiting rooms. It is an elevated standard of grooming built exclusively for the modern gentleman.
         </p>
       </div>
 
