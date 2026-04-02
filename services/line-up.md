@@ -1,79 +1,121 @@
 ---
 layout: default
-title: Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
+title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
 
 <header class="hero-cinematic">
-  <div class="container" style="max-width: 1000px;">
-    <span class="eyebrow-text">Signature Detailing Service</span>
-    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Line Up</h1>
+  <div class="container" style="max-width: 1000px; padding: 0 20px;">
+    <span class="eyebrow-text">The Finishing Touch</span>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Precision Line Up</h1>
     <div class="accent-line"></div>
-    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px;">Crisp edges and flawless definition in Sioux Falls SD. Restore your sharpest lines and keep your style looking fresh between your regular full haircut visits.</p>
+    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Restore your sharpest edges. Our precision line up service in Sioux Falls SD is engineered to refresh your look with razor-sharp contours around the hairline, beard, and neck.</p>
   </div>
 </header>
 
 <section class="section" style="padding-top: 20px;">
-  <div class="container" style="max-width: 1100px; text-align: center;">
+  <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
+
+    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
+      <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?auto=format&fit=crop&w=1200&q=80" alt="Master barber preparing for a precision line up and edge up service in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+    </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
-      When you need to refresh your look between full haircuts the details matter most. Our precision Line Up service in Sioux Falls SD restores the sharp and clean lines around your hairline sideburns and beard ensuring your style remains impeccable week after week.
+      Sometimes you don't need a full haircut to look your absolute best; you just need to reset the geometry. A masterful line up creates striking contrast, immediately making your existing cut look fresh. We use a combination of trimmers and traditional straight razors to carve out flawless, symmetrical edges that define your facial structure.
     </p>
 
-    <h3 style="color: var(--text-light); margin-bottom: 30px; font-size: 27px;">What Is Included</h3>
+    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px;"></div>
+
+    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">The Edge Up Expertise</h3>
     
-    <div style="text-align: left; background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: 12px; padding: 50px; backdrop-filter: blur(16px); box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); margin-bottom: 80px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Visual Assessment:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">We evaluate your natural growth patterns and head shape to establish the sharpest and most flattering lines possible for your specific look.</p>
-        </div>
-        
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Crisp Trimmer Work:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">Carefully removing any overgrowth around the forehead temples ears and the back of the neck to restore a structured appearance.</p>
-        </div>
-        
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Straight Razor Detailing:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">Finishing the edges with a hot towel and a traditional straight razor for a deeply defined and lasting contrast that a trimmer alone cannot achieve.</p>
-        </div>
-        
-        <div>
-          <p style="font-size: 22px; margin-bottom: 10px; line-height: 1.6;"><strong style="color: var(--accent-gold);">✓ Skin Soothing Finish:</strong></p>
-          <p style="font-size: 20px; color: var(--text-muted); line-height: 1.6;">The application of a premium aftershave balm to calm the skin after the razor work and prevent any irritation or redness.</p>
-        </div>
+      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16v16H4z"/><path d="M4 12h16"/><path d="M12 4v16"/>
+        </svg>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Crisp Hairlines</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We restore the natural geometry of your forehead and temples, establishing a perfectly balanced and symmetrical front profile that immediately sharpens your overall appearance.</p>
+      </div>
+      
+      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19V5a2 2 0 0 1 2-2h13.4a.5.5 0 0 1 .49.6l-2.11 10.55A2 2 0 0 1 16 16H6.5"/><path d="M4 19a2 2 0 0 0 2 2h14"/>
+        </svg>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Neckline Tapering</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">The back of the neck is the first place a haircut begins to look grown out. We detail the nape and behind the ears, creating a seamless transition from hair to bare skin.</p>
+      </div>
+      
+      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/>
+        </svg>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Beard Contours</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We map the exact outlines of your beard on the cheeks and jawline using a straight razor. This provides maximum contrast and instantly makes the beard look fuller and well-groomed.</p>
       </div>
       
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 60px; margin-bottom: 80px; text-align: left;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
-      <div>
-        <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 27px;">Who It Is For</h3>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8;">
-          The Line Up is perfect for the man who wants to maintain a highly groomed appearance without sitting for a full haircut every time. It is the ideal quick service before a weekend event an important business meeting or a date night in Sioux Falls.
-        </p>
+      <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.6);">
+        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80" alt="Barber executing a sharp razor line up on a client in Sioux Falls" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
       <div>
-        <h3 style="color: var(--text-light); margin-bottom: 20px; font-size: 27px;">Why Choose Nathaniel?</h3>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8;">
-          A great edge up requires a steady hand and an obsessive attention to symmetry. We do not push your hairline back or rush the razor work. In our private and appointment only shop you get the dedicated time needed for absolute perfection.
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Ultimate Maintenance</h3>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
+          A line up is the secret weapon for the modern gentleman. It extends the life of your primary haircut, allowing you to maintain an immaculate appearance between larger appointments. Whether you have an important meeting or an event in the Sioux Empire, an edge up ensures you walk in with total confidence.
+        </p>
+
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Uncompromised Precision</h3>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
+          Precision is our hallmark. We do not push hairlines back or create artificial, unsustainable shapes. We work *with* your natural growth patterns to carve out clean, organic lines that will grow out smoothly and evenly over the following weeks.
         </p>
       </div>
 
     </div>
 
-    <div style="padding: 60px 20px; background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; margin-bottom: 80px;">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Refresh Your Look</h3>
-      <a href="{{ site.baseurl }}/book/" class="btn-primary">Book Your Line Up Now</a>
+    <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 60px 20px; margin-bottom: 80px; background: linear-gradient(90deg, transparent, rgba(10, 12, 18, 0.8), transparent);">
+      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Restore Your Edges Today</h3>
+      <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
+    </div>
+
+    <h3 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h3>
+    
+    <div style="max-width: 800px; margin: 0 auto 80px; text-align: left;">
+      
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What exactly does a Line Up include?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">A Line Up (or edge up) strictly focuses on the perimeter of your hair. We detail the front hairline, the temples, behind the ears, the back of the neck, and the beard contours. It does not include removing length or fading the sides.</p>
+      </details>
+
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">When should I book a Line Up instead of a haircut?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">A Line Up is perfect for halfway between your regular haircut appointments. If your fade is growing out but you want to instantly look sharp again for the weekend or a meeting, this service is designed exactly for that.</p>
+      </details>
+
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Do you take walk ins or do I need an appointment?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Nathaniel operates strictly by appointment only. Because he is a solo barber working in his own private physical location, this ensures every client receives unhurried and undivided attention.</p>
+      </details>
+
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What is your cancellation and deposit policy?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We require a deposit to secure your booking. If you cannot make your appointment, we kindly ask for over twenty four hours of notice. Without ample notification, we lose vital revenue for that specific time slot, so the deposit will be retained.</p>
+      </details>
+      
+      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Do you use a straight razor for the line up?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Yes. We establish the initial geometry with precision trimmers, but we always finish the edges with a traditional straight razor to ensure the sharpest, longest-lasting lines possible.</p>
+      </details>
+
     </div>
 
     <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h3>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="{{ site.baseurl }}/services/mens-haircut" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Mens Haircut</a>
       <a href="{{ site.baseurl }}/services/beard-trim" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Beard Trim</a>
+      <a href="{{ site.baseurl }}/services/shave" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Straight Razor Shave</a>
     </div>
 
   </div>
