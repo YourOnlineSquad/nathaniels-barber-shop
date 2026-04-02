@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
+title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
 
 <header class="hero-cinematic">
   <div class="container" style="max-width: 1000px; padding: 0 20px;">
-    <span class="eyebrow-text">The Finishing Touch</span>
-    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Precision Hair Line Up in Sioux Falls, SD </h1>
+    <span class="eyebrow-text">Junior Grooming</span>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Kids Haircut in Sioux Falls, SD</h1>
     <div class="accent-line"></div>
-    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Restore your sharpest edges. Our precision line up service in Sioux Falls SD is engineered to refresh your look with razor-sharp contours around the hairline, beard, and neck.</p>
+    <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Premium grooming isn't just for adults. We provide a calm, precise, and sophisticated haircutting experience designed specifically for the young gentlemen of the Sioux Empire.</p>
   </div>
 </header>
 
@@ -16,41 +16,41 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
   <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
 
     <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
-      <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?auto=format&fit=crop&w=1200&q=80" alt="Master barber preparing for a precision line up and edge up service in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+      <img src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=1200&q=80" alt="Master barber giving a precision kids haircut in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
-      Sometimes you don't need a full haircut to look your absolute best; you just need to reset the geometry. A masterful line up creates striking contrast, immediately making your existing cut look fresh. We use a combination of trimmers and traditional straight razors to carve out flawless, symmetrical edges that define your facial structure.
+      Finding a barber who is both technically skilled and patient with children can be a challenge. At Nathaniel's Barber Shop, we treat our junior clients with the exact same respect and uncompromised craftsmanship as our adults. We reject the rushed, "assembly-line" kid cuts. Instead, we deliver a relaxed, professional session that results in a sharp, easily manageable style.
     </p>
 
     <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px;"></div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">The Edge Up Expertise</h3>
+    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Grooming</h3>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
       <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
         <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 4h16v16H4z"/><path d="M4 12h16"/><path d="M12 4v16"/>
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
         </svg>
-        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Crisp Hairlines</strong></p>
-        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We restore the natural geometry of your forehead and temples, establishing a perfectly balanced and symmetrical front profile that immediately sharpens your overall appearance.</p>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">A Calm Environment</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">Haircuts can be overwhelming for younger clients. Our private, one-on-one shop environment eliminates the loud noises and chaotic waiting rooms, providing a peaceful, sensory-friendly experience.</p>
       </div>
       
       <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
         <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 19V5a2 2 0 0 1 2-2h13.4a.5.5 0 0 1 .49.6l-2.11 10.55A2 2 0 0 1 16 16H6.5"/><path d="M4 19a2 2 0 0 0 2 2h14"/>
+          <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
         </svg>
-        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Neckline Tapering</strong></p>
-        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">The back of the neck is the first place a haircut begins to look grown out. We detail the nape and behind the ears, creating a seamless transition from hair to bare skin.</p>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Uncompromised Skill</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We do not lower our standards for junior cuts. Your child will receive the same structural fading, masterful scissor work, and precision detailing that has made our shop a staple in the community.</p>
       </div>
       
       <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
         <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/>
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
         </svg>
-        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Beard Contours</strong></p>
-        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We map the exact outlines of your beard on the cheeks and jawline using a straight razor. This provides maximum contrast and instantly makes the beard look fuller and well-groomed.</p>
+        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Parent-Friendly Styling</strong></p>
+        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We design cuts that look incredible leaving the chair, but more importantly, we create shapes that are easy for parents to manage and style on busy weekday mornings.</p>
       </div>
       
     </div>
@@ -58,25 +58,25 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
       <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.6);">
-        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80" alt="Barber executing a sharp razor line up on a client in Sioux Falls" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
+        <img src="https://images.unsplash.com/photo-1521369527715-e26b1fb0fbd0?auto=format&fit=crop&w=800&q=80" alt="Professional and calm kids haircut experience at a luxury barber shop in Sioux Falls" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
       <div>
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Ultimate Maintenance</h3>
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Building Confidence</h3>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
-          A line up is the secret weapon for the modern gentleman. It extends the life of your primary haircut, allowing you to maintain an immaculate appearance between larger appointments. Whether you have an important meeting or an event in the Sioux Empire, an edge up ensures you walk in with total confidence.
+          A great haircut does wonders for a young man's confidence. Whether it is for back-to-school photos, a special event in Minnehaha County, or just routine grooming, we work with parents and kids to find a style they genuinely love and feel proud to wear.
         </p>
 
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Uncompromised Precision</h3>
+        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Unrushed Promise</h3>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
-          Precision is our hallmark. We do not push hairlines back or create artificial, unsustainable shapes. We work *with* your natural growth patterns to carve out clean, organic lines that will grow out smoothly and evenly over the following weeks.
+          Children can be unpredictable, and that is perfectly okay. By operating entirely on an appointment-only schedule, we ensure we have ample time blocked out. We never rush a service, allowing us to adapt to the child's pace and ensure maximum safety and precision.
         </p>
       </div>
 
     </div>
 
     <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 60px 20px; margin-bottom: 80px; background: linear-gradient(90deg, transparent, rgba(10, 12, 18, 0.8), transparent);">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Restore Your Edges Today</h3>
+      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Book Their Next Haircut</h3>
       <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
     </div>
 
@@ -85,18 +85,18 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
     <div style="max-width: 800px; margin: 0 auto 80px; text-align: left;">
       
       <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What exactly does a Line Up include?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">A Line Up (or edge up) strictly focuses on the perimeter of your hair. We detail the front hairline, the temples, behind the ears, the back of the neck, and the beard contours. It does not include removing length or fading the sides.</p>
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What is the age limit for a kids haircut?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We welcome junior clients of all ages, provided they are able to sit relatively independently in the barber chair. Safety is our top priority when working with sharp shears and clippers.</p>
       </details>
 
       <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">When should I book a Line Up instead of a haircut?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">A Line Up is perfect for halfway between your regular haircut appointments. If your fade is growing out but you want to instantly look sharp again for the weekend or a meeting, this service is designed exactly for that.</p>
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">How much time is blocked out for this service?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We block out the exact same amount of time for a junior cut as we do an adult cut. We refuse to rush the process, ensuring your child stays comfortable and the final result is absolutely precise.</p>
       </details>
 
       <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
         <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Do you take walk ins or do I need an appointment?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Nathaniel operates strictly by appointment only. Because he is a solo barber working in his own private physical location, this ensures every client receives unhurried and undivided attention.</p>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Nathaniel operates strictly by appointment only. This is especially beneficial for children, as it guarantees they won't have to wait in a crowded, noisy lobby before their turn.</p>
       </details>
 
       <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
@@ -105,8 +105,8 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
       </details>
       
       <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Do you use a straight razor for the line up?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Yes. We establish the initial geometry with precision trimmers, but we always finish the edges with a traditional straight razor to ensure the sharpest, longest-lasting lines possible.</p>
+        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Where exactly is your shop located?</summary>
+        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We operate out of a premium private physical location right here in Sioux Falls SD. You will receive exact directions and details upon completing your secure booking through our StyleSeat portal.</p>
       </details>
 
     </div>
@@ -114,8 +114,7 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
     <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h3>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="{{ site.baseurl }}/services/mens-haircut" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Mens Haircut</a>
-      <a href="{{ site.baseurl }}/services/beard-trim" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Beard Trim</a>
-      <a href="{{ site.baseurl }}/services/shave" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Straight Razor Shave</a>
+      <a href="{{ site.baseurl }}/services/line-up" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Line Up</a>
     </div>
 
   </div>
