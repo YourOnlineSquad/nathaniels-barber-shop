@@ -15,15 +15,15 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 <section class="section" style="padding-top: 20px;">
   <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
 
-    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 40px rgba(212, 175, 55, 0.15), 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px; transition: all 0.4s ease;">
+    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 60px rgba(255, 215, 0, 0.4), 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px; transition: all 0.4s ease;">
       <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-beard-trim-service.webp" alt="Master barber performing a luxury beard trim and sculpting service in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
-      A great beard requires meticulous maintenance and an expert eye for detail. At Nathaniels Barber Shop we reject the quick trim approach. We use precise techniques to sculpt define and condition your beard so that it perfectly complements your unique facial structure and daily lifestyle.
+      A great beard requires meticulous maintenance and an expert eye for detail. At Nathaniel's Barber Shop we reject the quick trim approach. We use precise techniques to sculpt define and condition your beard so that it perfectly complements your unique facial structure and daily lifestyle.
     </p>
 
-    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px;"></div>
+    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent-gold);"></div>
 
     <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">What Is Included</h3>
     
@@ -63,7 +63,7 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
-      <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 40px rgba(212, 175, 55, 0.15), 0 20px 40px rgba(0,0,0,0.6); transition: all 0.4s ease;">
+      <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 60px rgba(255, 215, 0, 0.4), 0 20px 40px rgba(0,0,0,0.6); transition: all 0.4s ease;">
         <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-beard-trim-clipper-service.webp" alt="Master barber detailing a perfect beard fade in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
