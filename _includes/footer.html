@@ -1,109 +1,96 @@
 <style>
   .site-footer {
-    background: linear-gradient(180deg, rgba(5, 6, 8, 0) 0%, rgba(10, 12, 18, 1) 25%);
+    /* Subtle glow behind the footer content */
+    background: radial-gradient(circle at top, rgba(212, 175, 55, 0.05) 0%, rgba(10, 12, 18, 1) 70%);
     padding: 100px 20px 40px;
-    margin-top: 100px;
+    margin-top: 0; /* Remove gap if preceding section has padding */
     border-top: 1px solid rgba(212, 175, 55, 0.15);
     position: relative;
-    overflow: hidden;
+    color: var(--text-muted);
   }
 
-  /* Thin gold line at the very top of the footer */
   .footer-accent-line {
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 50%;
     transform: translateX(-50%);
-    width: 120px;
-    height: 3px;
+    width: 150px;
+    height: 2px;
     background: var(--accent-gold);
-    box-shadow: 0 0 20px var(--accent-gold);
-    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 15px var(--accent-gold);
   }
 
   .footer-grid {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.4fr 1fr 1fr 1.3fr;
-    gap: 60px;
-    margin-bottom: 80px;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+    gap: 50px;
+    margin-bottom: 60px;
+    align-items: start;
   }
 
   .footer-brand-name {
     font-family: var(--font-heading);
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     color: var(--accent-gold);
     font-weight: 900;
     line-height: 1.1;
     margin-bottom: 20px;
     display: block;
-    text-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
   }
 
   .footer-divider {
-    width: 45px;
+    width: 40px;
     height: 2px;
     background: var(--accent-gold);
-    margin-bottom: 20px;
-    opacity: 0.5;
+    margin-bottom: 25px;
   }
 
   .footer-col h3 {
     color: var(--text-light);
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 30px;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    font-family: var(--font-body);
     font-weight: 700;
-    opacity: 0.9;
   }
 
   .footer-link {
     transition: var(--transition-smooth);
     display: flex;
     align-items: flex-start;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     color: var(--text-muted);
-    font-size: 0.95rem;
+    text-decoration: none;
   }
 
   .footer-link:hover {
     color: var(--accent-gold);
-    transform: translateX(6px);
+    transform: translateX(5px);
   }
 
-  /* Map Container Stylistic Upgrade */
   .footer-map-wrapper {
-    position: relative;
     border-radius: 12px;
     padding: 1px;
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.4), transparent 60%);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), transparent);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
   }
 
   .footer-map-container {
     width: 100%;
-    height: 220px;
+    height: 200px;
     background: #050608;
     border-radius: 11px;
     overflow: hidden;
   }
 
-  /* Applying a dark-mode filter to your GMB embed */
+  /* Improved Map Filter: Dark but readable */
   .footer-map-container iframe {
     width: 100%;
     height: 100%;
     border: none;
-    filter: grayscale(1) invert(0.92) brightness(0.8) contrast(1.2);
-    opacity: 0.85;
-    transition: opacity 0.3s ease;
-  }
-
-  .footer-map-container:hover iframe {
-    opacity: 1;
-    filter: grayscale(0.5) invert(0.92) brightness(0.9);
+    filter: invert(90%) hue-rotate(180deg) brightness(0.9) contrast(1.1) grayscale(0.2);
   }
 
   .footer-bottom {
@@ -119,13 +106,13 @@
     text-transform: uppercase;
   }
 
-  @media (max-width: 1024px) {
-    .footer-grid { grid-template-columns: 1fr 1fr; gap: 50px; }
+  @media (max-width: 992px) {
+    .footer-grid { grid-template-columns: 1fr 1fr; }
   }
-  @media (max-width: 650px) {
-    .footer-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; }
+  @media (max-width: 600px) {
+    .footer-grid { grid-template-columns: 1fr; text-align: center; }
     .footer-link { justify-content: center; }
-    .footer-divider { margin: 0 auto 20px; }
+    .footer-divider { margin-left: auto; margin-right: auto; }
   }
 </style>
 
@@ -137,14 +124,14 @@
     <div class="footer-col">
       <span class="footer-brand-name">Nathaniel's<br>Barber Shop</span>
       <div class="footer-divider"></div>
-      <p class="footer-text" style="font-size: 0.95rem; opacity: 0.75; line-height: 1.8;">
+      <p style="line-height: 1.8; font-size: 0.95rem;">
         The premier destination for a premium haircut in Sioux Falls, SD. Experience expert craftsmanship and traditional barbering in an exclusive, private environment.
       </p>
     </div>
 
     <div class="footer-col">
-      <h3>Get In Touch</h3>
-      <a href="https://goo.gl/maps/YourActualMapLink" target="_blank" class="footer-link">
+      <h3>Contact Us</h3>
+      <a href="https://goo.gl/maps/YourActualLink" target="_blank" class="footer-link">
         <svg style="margin-right: 12px; width: 18px; stroke: var(--accent-gold); flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
         <span>1401 W 10th St<br>Sioux Falls, SD 57104</span>
       </a>
@@ -159,14 +146,14 @@
       <a href="{{ site.baseurl }}/" class="footer-link">Home</a>
       <a href="{{ site.baseurl }}/services/" class="footer-link">All Services</a>
       <a href="{{ site.baseurl }}/faq/" class="footer-link">FAQ & Policies</a>
-      <a href="https://www.styleseat.com/m/v/nathanielsbarbershop" target="_blank" rel="noopener noreferrer" class="footer-link" style="color: var(--accent-gold); font-weight: bold; letter-spacing: 0.5px;">Book Appointment</a>
+      <a href="https://www.styleseat.com/m/v/nathanielsbarbershop" target="_blank" class="footer-link" style="color: var(--accent-gold); font-weight: bold;">Book Now</a>
     </div>
 
     <div class="footer-col">
       <h3>Location</h3>
       <div class="footer-map-wrapper">
         <div class="footer-map-container">
-          <iframe src="http://googleusercontent.com/maps.google.com/6" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m18!1m12!1m3!1d2893.2086435384666!2d-96.7441113!3d43.5401344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878eb5944119d675%3A0xc4864ed70d10d938!2s1401%20W%2010th%20St%2C%20Sioux%20Falls%2C%20SD%2057104!5e0!3m2!1sen!2sus!4v1712100000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
