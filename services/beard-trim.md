@@ -15,7 +15,7 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 <section class="section" style="padding-top: 20px;">
   <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
 
-    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
+    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 40px rgba(212, 175, 55, 0.15), 0 20px 40px rgba(0,0,0,0.6); margin: 0 auto 60px; max-width: 900px; transition: all 0.4s ease;">
       <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-beard-trim-service.webp" alt="Master barber performing a luxury beard trim and sculpting service in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
@@ -57,7 +57,7 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
-      <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.6);">
+      <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 40px rgba(212, 175, 55, 0.15), 0 20px 40px rgba(0,0,0,0.6); transition: all 0.4s ease;">
         <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-beard-trim-clipper-service.webp" alt="Master barber detailing a perfect beard fade in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
