@@ -247,21 +247,13 @@ main { flex: 1; position: relative; z-index: 10; }
 .card:nth-child(3) { animation-delay: 2s; }
 
 .card:hover {
-  transform: translateY(-20px) scale(1.02);
-  border-color: var(--accent-gold);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9), inset 0 0 20px rgba(212, 175, 55, 0.1);
+  transform: translateY(-15px) scale(1.02);
+  border-color: rgba(212, 175, 55, 0.8);
+  /* This creates the intense golden aura from your screenshot */
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.25), inset 0 0 20px rgba(212, 175, 55, 0.08);
   animation-play-state: paused;
+  z-index: 10; /* Ensures the glowing card sits above the others */
 }
-
-.card h3 { font-size: 1.6rem; margin-bottom: 1rem; color: var(--text-light); }
-.card p { color: var(--text-muted); margin-bottom: 1.5rem; }
-
-svg {
-  filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.5));
-  stroke: var(--accent-gold);
-  transition: all 0.3s ease;
-}
-.card:hover svg {
   filter: drop-shadow(0 0 20px var(--accent-gold));
   transform: scale(1.1);
 }
