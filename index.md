@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: Nathaniel’s Barber Shop in Sioux Falls SD | High-End Grooming
 ---
