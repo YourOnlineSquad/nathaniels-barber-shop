@@ -15,50 +15,56 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 <section class="section" style="padding-top: 20px;">
   <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
 
-    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
-      <img src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=1200&q=80" alt="Master barber giving a precision kids haircut in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+    <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 60px rgba(255, 215, 0, 0.4), 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px; transition: all 0.4s ease;">
+      <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-kids-haircut-fade.webp" alt="Master barber giving a precision kids haircut in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
       Finding a barber who is both technically skilled and patient with children can be a challenge. At Nathaniel's Barber Shop, we treat our junior clients with the exact same respect and uncompromised craftsmanship as our adults. We reject the rushed, "assembly-line" kid cuts. Instead, we deliver a relaxed, professional session that results in a sharp, easily manageable style.
     </p>
 
-    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px;"></div>
+    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent-gold);"></div>
 
     <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Barbering</h3>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
-      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
-        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-        </svg>
-        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">A Calm Environment</strong></p>
-        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">Haircuts can be overwhelming for younger clients. Our private, one-on-one shop environment eliminates the loud noises and chaotic waiting rooms, providing a peaceful, sensory-friendly experience.</p>
+      <div class="float-element">
+        <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+          <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">A Calm Environment</strong></p>
+          <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">Haircuts can be overwhelming for younger clients. Our private, one-on-one shop environment eliminates the loud noises and chaotic waiting rooms, providing a peaceful, sensory-friendly experience.</p>
+        </div>
       </div>
       
-      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
-        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
-        </svg>
-        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Uncompromised Skill</strong></p>
-        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We do not lower our standards for junior cuts. Your child will receive the same structural fading, masterful scissor work, and precision detailing that has made our shop a staple in the community.</p>
+      <div class="float-element" style="animation-delay: 1s;">
+        <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+          <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
+          </svg>
+          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Uncompromised Skill</strong></p>
+          <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We do not lower our standards for junior cuts. Your child will receive the same structural fading, masterful scissor work, and precision detailing that has made our shop a staple in the community.</p>
+        </div>
       </div>
       
-      <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
-        <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
-        </svg>
-        <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Parent-Friendly Styling</strong></p>
-        <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We design cuts that look incredible leaving the chair, but more importantly, we create shapes that are easy for parents to manage and style on busy weekday mornings.</p>
+      <div class="float-element" style="animation-delay: 2s;">
+        <div style="background: rgba(10, 12, 18, 0.6); border: 1px solid var(--border-glow); border-radius: 12px; padding: 40px 30px; transform: translateY(0); transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 20px 40px rgba(212, 175, 55, 0.4)'; this.style.borderColor='var(--accent-gold)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.5)'; this.style.borderColor='var(--border-glow)';">
+          <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Parent-Friendly Styling</strong></p>
+          <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We design cuts that look incredible leaving the chair, but more importantly, we create shapes that are easy for parents to manage and style on busy weekday mornings.</p>
+        </div>
       </div>
       
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
-      <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.6);">
-        <img src="https://images.unsplash.com/photo-1521369527715-e26b1fb0fbd0?auto=format&fit=crop&w=800&q=80" alt="Professional and calm kids haircut experience at a luxury barber shop in Sioux Falls" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
+      <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 60px rgba(255, 215, 0, 0.4), 0 20px 40px rgba(0,0,0,0.6); transition: all 0.4s ease;">
+        <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-clipper-Kids-haircut-fade.webp" alt="Professional and calm kids haircut experience at a luxury barber shop in Sioux Falls" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
       <div>
@@ -84,29 +90,29 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
     
     <div style="max-width: 800px; margin: 0 auto 80px; text-align: left;">
       
-      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What is the age limit for a kids haircut?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We welcome junior clients of all ages, provided they are able to sit relatively independently in the barber chair. Safety is our top priority when working with sharp shears and clippers.</p>
+      <details class="faq-details">
+        <summary class="faq-summary">What is the age limit for a kids haircut?</summary>
+        <p class="faq-answer">We welcome junior clients of all ages, provided they are able to sit relatively independently in the barber chair. Safety is our top priority when working with sharp shears and clippers.</p>
       </details>
 
-      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">How much time is blocked out for this service?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We block out the exact same amount of time for a junior cut as we do an adult cut. We refuse to rush the process, ensuring your child stays comfortable and the final result is absolutely precise.</p>
+      <details class="faq-details">
+        <summary class="faq-summary">How much time is blocked out for this service?</summary>
+        <p class="faq-answer">We block out the exact same amount of time for a junior cut as we do an adult cut. We refuse to rush the process, ensuring your child stays comfortable and the final result is absolutely precise.</p>
       </details>
 
-      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Do you take walk ins or do I need an appointment?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">Nathaniel operates strictly by appointment only. This is especially beneficial for children, as it guarantees they won't have to wait in a crowded, noisy lobby before their turn.</p>
+      <details class="faq-details">
+        <summary class="faq-summary">Do you take walk ins or do I need an appointment?</summary>
+        <p class="faq-answer">Nathaniel operates strictly by appointment only. This is especially beneficial for children, as it guarantees they won't have to wait in a crowded, noisy lobby before their turn.</p>
       </details>
 
-      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">What is your cancellation and deposit policy?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We require a deposit to secure your booking. If you cannot make your appointment, we kindly ask for over twenty four hours of notice. Without ample notification, we lose vital revenue for that specific time slot, so the deposit will be retained.</p>
+      <details class="faq-details">
+        <summary class="faq-summary">What is your cancellation and deposit policy?</summary>
+        <p class="faq-answer">We require a deposit to secure your booking. If you cannot make your appointment, we kindly ask for over twenty four hours of notice. Without ample notification, we lose vital revenue for that specific time slot, so the deposit will be retained.</p>
       </details>
       
-      <details style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding: 20px 0;">
-        <summary style="font-size: 22px; color: var(--accent-gold); font-weight: 600; cursor: pointer; outline: none;">Where exactly is your shop located?</summary>
-        <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">We operate out of a premium private physical location right here in Sioux Falls SD. You will receive exact directions and details upon completing your secure booking through our StyleSeat portal.</p>
+      <details class="faq-details">
+        <summary class="faq-summary">Where exactly is your shop located?</summary>
+        <p class="faq-answer">We operate out of a premium private physical location right here in Sioux Falls SD. You will receive exact directions and details upon completing your secure booking through our StyleSeat portal.</p>
       </details>
 
     </div>
