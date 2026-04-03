@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Nathaniel's Barber Shop - Master Stylesheet (RESTORED & UPGRADED)
+   Nathaniel's Barber Shop - Master Stylesheet (RESTORED)
    ========================================================================== */
 
 /* --- 1. GLOBAL VARIABLES --- */
@@ -70,8 +70,8 @@ h1, h2, h3, h4 {
   text-shadow: 0 2px 15px rgba(0,0,0,0.8);
 }
 
-/* Base link styling */
-a { text-decoration: none; transition: var(--transition-smooth); }
+/* Inheriting color prevents links from ever turning purple */
+a { text-decoration: none; transition: var(--transition-smooth); color: inherit; }
 
 /* --- 4. REUSABLE CONTAINERS --- */
 main { flex: 1; position: relative; z-index: 10; }
@@ -124,6 +124,87 @@ main { flex: 1; position: relative; z-index: 10; }
 }
 .nav-menu > ul > li > a:hover { color: var(--accent-gold); text-shadow: 0 0 10px rgba(212, 175, 55, 0.6); }
 
+/* --- ADVANCED MEGA MENU (RESTORED) --- */
+.nav-item-dropdown { position: relative; }
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  width: 680px;
+  background: rgba(10, 12, 18, 0.85);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 16px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.9), inset 0 0 20px rgba(212, 175, 55, 0.05);
+  pointer-events: none;
+}
+
+.nav-item-dropdown:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+.mega-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.02);
+  transition: var(--transition-smooth);
+}
+
+.mega-link:hover {
+  background: rgba(212, 175, 55, 0.08);
+  border-color: rgba(212, 175, 55, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.mega-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  stroke: var(--accent-gold);
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
+  transition: all 0.4s ease;
+}
+
+.mega-link:hover .mega-icon {
+  transform: scale(1.15) rotate(5deg);
+  filter: drop-shadow(0 0 15px var(--accent-gold));
+}
+
+.mega-text h4 {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 4px;
+  font-family: var(--font-heading);
+  text-shadow: none;
+}
+
+.mega-text p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* --- 6. BUTTONS --- */
 .btn-primary {
   display: inline-block;
@@ -161,10 +242,10 @@ main { flex: 1; position: relative; z-index: 10; }
   text-align: center;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
-  display: block; /* Fixes link behavior */
+  display: block; 
 }
 
-/* The Intense Gold Glow */
+/* The Intense Gold Glow from the Screenshot */
 .card:hover {
   transform: translateY(-15px) scale(1.02);
   border-color: rgba(212, 175, 55, 0.8);
@@ -173,16 +254,13 @@ main { flex: 1; position: relative; z-index: 10; }
   z-index: 10;
 }
 
-/* Fixing the purple text issue from links */
 .card h3 { font-size: 1.6rem; margin-bottom: 1rem; color: var(--text-light); }
 .card p { color: var(--text-muted); margin-bottom: 1.5rem; }
 
-/* Global floating class */
 .float-element {
   animation: floatUpDown 6s ease-in-out infinite;
 }
 
-/* Master Service Icons */
 .service-icon {
   width: 50px;
   height: 50px;
