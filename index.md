@@ -1,92 +1,368 @@
----
-layout: default
-title: Premium Haircut in Sioux Falls, SD | Nathaniel’s Barber Shop
----
+/* ==========================================================================
+   Nathaniel's Barber Shop - Master Stylesheet (RESTORED)
+   ========================================================================== */
 
-<section class="hero-cinematic" style="padding: 140px 20px 90px; background: transparent; position: relative;">
-  <div class="container" style="text-align: center; max-width: 900px;">
-    
-    <span class="eyebrow-text">Master Barbering</span>
-    <h1 style="font-size: clamp(3rem, 6vw, 4.5rem); line-height: 1.1; margin-bottom: 25px; text-shadow: 0 10px 30px rgba(0,0,0,0.8);">
-      Premium <span style="color: var(--accent-gold);">Barber Shop</span><br>in Sioux Falls, SD
-    </h1>
-    
-    <p style="font-size: 1.15rem; color: #b0b8c1; line-height: 1.8; margin-bottom: 45px; padding: 0 20px;">
-      Elevate your style at Nathaniel's Barber Shop, the premier destination for a <strong>premium haircut in Sioux Falls, SD</strong>. We specialize in precision fades, expert beard maintenance, and luxury hot towel shaves. Operating strictly by appointment for the modern gentleman.
-    </p>
-    
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-      <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 16px 40px; font-size: 1.05rem;">Book Your Appointment</a>
-      <a href="{{ site.baseurl }}/services/" class="btn-primary" style="background: transparent; border-color: rgba(255,255,255,0.2); color: #fff !important; box-shadow: none;">View Services</a>
-    </div>
-    
-  </div>
-</section>
+/* --- 1. GLOBAL VARIABLES --- */
+:root {
+  --bg-deep-space: #030406; 
+  --bg-card: rgba(15, 18, 25, 0.6);
+  --accent-gold: #d4af37;
+  --accent-red: #a01d1d;
+  --text-light: #ffffff;
+  --text-muted: #a0aab5;
+  --border-glow: rgba(212, 175, 55, 0.2);
+  
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --transition-smooth: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
 
-<section class="section">
-  <div class="container" style="text-align: center;">
-    <h2 class="section-title">Premium Barber Services</h2>
-    <p style="color: var(--text-muted); margin-bottom: 60px;">
-      Explore our most popular services and book the right appointment for your next visit.
-    </p>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 
-    <div class="card-grid">
-      <a href="{{ site.baseurl }}/services/mens-haircut" class="card float-element">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/>
-          <line x1="20" y1="4" x2="8.12" y2="15.88"/>
-          <line x1="14.47" y1="14.48" x2="20" y2="20"/>
-          <line x1="8.12" y1="8.12" x2="12" y2="12"/>
-        </svg>
-        <h3>Mens Haircut</h3>
-        <p>Clean fades, classic styles, and modern precision cuts tailored to your head shape.</p>
-      </a>
+body {
+  background-color: var(--bg-deep-space);
+  color: var(--text-light);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
 
-      <a href="{{ site.baseurl }}/services/beard-trim" class="card float-element" style="animation-delay: 1s;">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/>
-        </svg>
-        <h3>Beard Maintenance</h3>
-        <p>Sharp lines, balanced shaping, and a refined finish using premium conditioning oils.</p>
-      </a>
+/* --- 2. MOVING SPACE AMBIENCE --- */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 200vh;
+  z-index: -1;
+  background-image: 
+      radial-gradient(2px 2px at 20px 30px, #ffffff, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 150px 80px, rgba(255,255,255,0.8), rgba(0,0,0,0)),
+      radial-gradient(3px 3px at 300px 250px, #ffffff, rgba(0,0,0,0)),
+      radial-gradient(1.5px 1.5px at 80px 350px, var(--accent-gold), rgba(0,0,0,0)),
+      radial-gradient(2.5px 2.5px at 450px 100px, #ffffff, rgba(0,0,0,0)),
+      radial-gradient(3.5px 3.5px at 250px 450px, rgba(255,255,255,0.5), rgba(0,0,0,0)); 
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  animation: moveStars 80s linear infinite;
+}
 
-      <a href="{{ site.baseurl }}/services/shave" class="card float-element" style="animation-delay: 2s;">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 10V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5"/>
-          <path d="M7 15h10"/>
-          <path d="M12 15v5"/>
-        </svg>
-        <h3>Straight Razor Shave</h3>
-        <p>Traditional hot towel shaving utilizing rich warm lather for a buttery smooth finish.</p>
-      </a>
-    </div>
+@keyframes moveStars {
+  from { transform: translateY(0); }
+  to { transform: translateY(-400px); }
+}
 
-    <div style="margin-top: 80px;">
-      <a href="{{ site.baseurl }}/services/" class="btn-primary" style="background: transparent; border-color: rgba(212,175,55,0.4); color: var(--accent-gold) !important; box-shadow: none;">View All Services</a>
-    </div>
-  </div>
-</section>
+@keyframes floatUpDown {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
 
-<section class="section" style="background: rgba(10, 12, 18, 0.4); border-top: 1px solid var(--border-glow); border-bottom: 1px solid var(--border-glow);">
-  <div class="container" style="text-align: center; max-width: 800px;">
-    <h2 class="section-title">The Nathaniel Standard</h2>
-    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 20px; line-height: 1.8;">
-      Nathaniel’s Barber Shop delivers a premium appointment-based barber experience with focused attention, high-quality craftsmanship, and a private, professional atmosphere.
-    </p>
-    <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
-      Whether you want a fresh haircut, beard maintenance, or a traditional straight razor shave, every service is built around detail, consistency, and a sharp finish in Sioux Falls.
-    </p>
-  </div>
-</section>
+/* --- 3. TYPOGRAPHY & LINKS --- */
+h1, h2, h3, h4 { 
+  font-family: var(--font-heading); 
+  font-weight: 700; 
+  color: var(--text-light); 
+  text-shadow: 0 2px 15px rgba(0,0,0,0.8);
+}
 
-<section class="section" style="padding-bottom: 120px;">
-  <div class="container" style="text-align: center;">
-    <h2 class="section-title">Visit Nathaniel’s Barber Shop</h2>
-    <p style="font-size: 1.4rem; color: var(--text-light); margin-bottom: 10px;">1401 W 10th St, Sioux Falls, SD 57104</p>
-    <p style="font-size: 1.1rem; color: var(--accent-gold); font-weight: 600; letter-spacing: 2px; text-transform: uppercase;">Strictly by appointment only</p>
+/* Inheriting color prevents links from ever turning purple */
+a { text-decoration: none; transition: var(--transition-smooth); color: inherit; }
 
-    <div style="margin-top: 60px;">
-      <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
-    </div>
-  </div>
-</section>
+/* --- 4. REUSABLE CONTAINERS --- */
+main { flex: 1; position: relative; z-index: 10; }
+.container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.section { padding: 100px 0; }
+.section-title { text-align: center; color: var(--accent-gold); font-size: 2.5rem; margin-bottom: 3rem; text-shadow: 0 0 15px rgba(212, 175, 55, 0.4); }
+
+/* --- 5. HEADER & NAVBAR --- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(5, 6, 8, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-glow);
+  padding: 1rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.navbar { display: flex; justify-content: space-between; align-items: center; }
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--accent-gold);
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+.logo:hover { transform: scale(1.02); text-shadow: 0 0 25px rgba(212, 175, 55, 0.9); }
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu > ul > li > a {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  display: block;
+  padding: 20px 0;
+}
+.nav-menu > ul > li > a:hover { color: var(--accent-gold); text-shadow: 0 0 10px rgba(212, 175, 55, 0.6); }
+
+/* --- ADVANCED MEGA MENU (RESTORED) --- */
+.nav-item-dropdown { position: relative; }
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  width: 680px;
+  background: rgba(10, 12, 18, 0.85);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 16px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.9), inset 0 0 20px rgba(212, 175, 55, 0.05);
+  pointer-events: none;
+}
+
+.nav-item-dropdown:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+.mega-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.02);
+  transition: var(--transition-smooth);
+}
+
+.mega-link:hover {
+  background: rgba(212, 175, 55, 0.08);
+  border-color: rgba(212, 175, 55, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.mega-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  stroke: var(--accent-gold);
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
+  transition: all 0.4s ease;
+}
+
+.mega-link:hover .mega-icon {
+  transform: scale(1.15) rotate(5deg);
+  filter: drop-shadow(0 0 15px var(--accent-gold));
+}
+
+.mega-text h4 {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 4px;
+  font-family: var(--font-heading);
+  text-shadow: none;
+}
+
+.mega-text p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* --- 6. BUTTONS --- */
+.btn-primary {
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.2) 100%);
+  color: var(--accent-gold) !important;
+  padding: 14px 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 6px;
+  border: 1px solid var(--accent-gold);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, var(--accent-red) 0%, #7a1515 100%);
+  color: #ffffff !important;
+  border-color: var(--accent-red);
+  box-shadow: 0 15px 30px rgba(160, 29, 29, 0.6);
+  transform: translateY(-5px) scale(1.03);
+}
+
+/* --- 7. CARDS & GLOW EFFECTS --- */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; }
+
+.card {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-glow);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  display: block; 
+}
+
+/* The Intense Gold Glow from the Screenshot */
+.card:hover {
+  transform: translateY(-15px) scale(1.02);
+  border-color: rgba(212, 175, 55, 0.8);
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.25), inset 0 0 20px rgba(212, 175, 55, 0.08);
+  animation-play-state: paused;
+  z-index: 10;
+}
+
+.card h3 { font-size: 1.6rem; margin-bottom: 1rem; color: var(--text-light); }
+.card p { color: var(--text-muted); margin-bottom: 1.5rem; }
+
+.float-element {
+  animation: floatUpDown 6s ease-in-out infinite;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 25px;
+  display: block;
+  stroke: var(--accent-gold);
+  stroke-width: 1.5;
+  fill: none;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3));
+  transition: var(--transition-smooth);
+}
+
+.card:hover .service-icon {
+  transform: scale(1.1) rotate(5deg);
+  filter: drop-shadow(0 0 20px var(--accent-gold));
+}
+
+/* --- 8. HERO SECTIONS --- */
+.hero-cinematic {
+  position: relative;
+  padding: 180px 20px 100px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-cinematic::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, rgba(0,0,0,0) 60%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-cinematic > .container { position: relative; z-index: 1; }
+
+.eyebrow-text {
+  display: block;
+  color: var(--accent-gold);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  margin-bottom: 25px;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+.accent-line {
+  width: 80px;
+  height: 2px;
+  background: var(--accent-gold);
+  margin: 0 auto 30px;
+  box-shadow: 0 0 15px var(--accent-gold);
+  border-radius: 2px;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* --- 9. FAQ ACCORDIONS --- */
+.faq-details {
+  border-bottom: 1px solid var(--border-glow);
+  padding: 20px 0;
+}
+
+.faq-summary {
+  font-size: 22px;
+  color: var(--accent-gold);
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.faq-answer {
+  color: var(--text-muted);
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* --- 10. MOBILE --- */
+@media (max-width: 768px) {
+  .navbar { flex-direction: column; gap: 1rem; }
+  .nav-menu ul { flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+  .section { padding: 60px 0; }
+  .btn-primary { padding: 12px 24px; }
+}
