@@ -2,251 +2,80 @@
 layout: default
 title: Nathaniel’s Barber Shop in Sioux Falls SD | High-End Grooming
 ---
+---
 
-<style>
-  /* Page-specific styles to ensure the luxury aesthetic */
-  :root {
-    --bg-dark: #121212;
-    --bg-card: #1e1e1e;
-    --accent-gold: #D4AF37;
-    --text-light: #f5f5f5;
-    --text-muted: #a0a0a0;
-  }
-  
-  /* Hero Section */
-  .hero {
-    text-align: center;
-    padding: 120px 20px 80px;
-    background: linear-gradient(180deg, #0a0a0a 0%, var(--bg-dark) 100%);
-    opacity: 0;
-    animation: fadeIn 1.5s forwards ease-in-out;
-  }
-  .hero h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    color: var(--text-light);
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-    font-weight: 700;
-  }
-  .hero p {
-    font-size: 1.2rem;
-    color: var(--text-muted);
-    max-width: 600px;
-    margin: 0 auto 40px;
-    line-height: 1.6;
-  }
-  .btn-gold {
-    background-color: var(--accent-gold);
-    color: #121212;
-    padding: 16px 36px;
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 4px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    transition: all 0.3s ease;
-    display: inline-block;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
-  }
-  .btn-gold:hover {
-    background-color: #b5952f;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
-  }
-  
-  /* Shared Section Styles */
-  .section {
-    padding: 80px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  .section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 60px;
-    color: var(--accent-gold);
-    font-weight: 600;
-  }
-  
-  /* Services Grid */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-  }
-  .card {
-    background: var(--bg-card);
-    padding: 40px 30px;
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    border: 1px solid rgba(255,255,255,0.05);
-  }
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
-    border-color: rgba(212, 175, 55, 0.3);
-  }
-  .card svg {
-    margin-bottom: 20px;
-  }
-  .card h3 {
-    color: var(--text-light);
-    margin-bottom: 15px;
-    font-size: 1.4rem;
-  }
-  .card p {
-    color: var(--text-muted);
-    line-height: 1.5;
-  }
-  
-  /* Split Section */
-  .split-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    align-items: center;
-  }
-  .split-content {
-    flex: 1;
-    min-width: 300px;
-  }
-  .image-placeholder {
-    background: #2a2a2a;
-    height: 400px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #555;
-    font-weight: bold;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
-  }
-  
-  /* Trust/Reviews */
-  .review-box {
-    text-align: center;
-    background: var(--bg-card);
-    padding: 60px 40px;
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.05);
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  .stars {
-    color: var(--accent-gold);
-    font-size: 2rem;
-    margin-bottom: 20px;
-    letter-spacing: 5px;
-  }
-  
-  /* Animations */
-  @keyframes fadeIn {
-    to { opacity: 1; }
-  }
-  .fade-up {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  }
-  .fade-up.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-</style>
-
-<section class="hero">
-  <h1>Nathaniel’s Barber Shop in Sioux Falls SD</h1>
-  <p>Experience the highest standard of grooming. Precision cuts, expert straight razor shaves, and top-tier service in an exclusive, appointment-only environment.</p>
-  <a href="/book/" class="btn-gold">Book an Appointment</a>
+<section class="section" style="padding-top: 140px; padding-bottom: 90px; position: relative;">
+  <div class="container" style="text-align: center; max-width: 900px;">
+    
+    <h1 style="font-size: clamp(3rem, 6vw, 4.5rem); line-height: 1.1; margin-bottom: 25px; text-shadow: 0 10px 30px rgba(0,0,0,0.8);">
+      Premium <span style="color: var(--accent-gold);">Barber Shop</span><br>in Sioux Falls, SD
+    </h1>
+    
+    <p style="font-size: 1.15rem; color: #b0b8c1; line-height: 1.8; margin-bottom: 45px; padding: 0 20px;">
+      Elevate your style at Nathaniel's Barber Shop, the premier destination for precision haircuts, expert beard grooming, and luxury hot towel shaves in Sioux Falls, South Dakota. Operating strictly by appointment for the modern gentleman.
+    </p>
+    
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="{{ site.baseurl }}/book/" class="btn-primary" style="padding: 16px 40px; font-size: 1.05rem;">Book Your Appointment</a>
+      <a href="{{ site.baseurl }}/services/" class="btn-primary" style="background: transparent; border-color: rgba(255,255,255,0.2); color: #fff !important; box-shadow: none;">View Services</a>
+    </div>
+    
+  </div>
 </section>
 
 <section class="section">
-  <h2 class="section-title fade-up">Premium Services</h2>
-  <div class="grid fade-up">
-    <a href="/services/mens-haircut" class="card">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4L4 20M4 4l16 16M9 9a2 2 0 1 0-4 0 2 2 0 0 0 4 0zm10 10a2 2 0 1 0-4 0 2 2 0 0 0 4 0z"/></svg>
-      <h3>Mens Haircut</h3>
-      <p>Precision tailoring and styling for a sharp, flawless look.</p>
-    </a>
-    <a href="/services/beard-trim" class="card">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-      <h3>Beard Trim</h3>
-      <p>Sculpting, lining, and conditioning for the perfect beard.</p>
-    </a>
-    <a href="/services/shave" class="card">
-      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
-      <h3>Straight Razor Shave</h3>
-      <p>Traditional hot towel shave for ultimate relaxation and smoothness.</p>
-    </a>
-  </div>
-  <div style="text-align: center; margin-top: 50px;">
-    <a href="/services/" class="btn-gold fade-up" style="background: transparent; border: 2px solid var(--accent-gold); color: var(--accent-gold); box-shadow: none;">View All Services</a>
-  </div>
-</section>
+  <div class="container" style="text-align: center;">
+    <h2 class="section-title">Premium Barber Services</h2>
+    <p style="color: var(--text-muted); margin-bottom: 40px;">
+      Explore our most popular services and book the right appointment for your next visit.
+    </p>
 
-<section class="section fade-up">
-  <div class="split-section">
-    <div class="split-content">
-      <div class="image-placeholder">
-        [Barber Shop Interior Placeholder]
-      </div>
+    <div class="card-grid">
+      <a href="{{ site.baseurl }}/services/mens-haircut" class="card">
+        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke-width: 1.5;" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+        <h3>Mens Haircut</h3>
+        <p>Clean fades, classic styles, and modern precision cuts.</p>
+      </a>
+
+      <a href="{{ site.baseurl }}/services/beard-trim" class="card">
+        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke-width: 1.5;" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M2 14c0-2 2-3 4-3 2.5 0 3.5 1.5 6 1.5s3.5-1.5 6-1.5c2 0 4 1 4 3 0 2.5-3 3-5 3-2 0-3.5-1.5-5-1.5S9 17 7 17c-2 0-5-.5-5-3Z"/></svg>
+        <h3>Beard Trim</h3>
+        <p>Sharp lines, balanced shaping, and a cleaner finished look.</p>
+      </a>
+
+      <a href="{{ site.baseurl }}/services/shave" class="card">
+        <svg style="width: 50px; height: 50px; margin-bottom: 20px; stroke-width: 1.5;" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2" ry="2"/><line x1="8" y1="5" x2="8" y2="19"/><line x1="16" y1="5" x2="16" y2="19"/><rect x="10" y="9" width="4" height="6" rx="1"/></svg>
+        <h3>Straight Razor Shave</h3>
+        <p>Hot towel shaving with a smooth luxury finish.</p>
+      </a>
     </div>
-    <div class="split-content">
-      <h2 style="color: var(--accent-gold); font-size: 2.2rem; margin-bottom: 20px;">Why Choose Nathaniel?</h2>
-      <p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 20px; font-size: 1.1rem;">
-        At Nathaniel's Barber Shop in Sioux Falls SD, we believe a haircut is more than just a chore—it's an experience. Operating strictly by appointment ensures that every client receives unhurried, undivided attention in a refined atmosphere.
-      </p>
-      <p style="color: var(--text-muted); line-height: 1.8; font-size: 1.1rem;">
-        Whether you need a classic gentleman's cut, a modern fade, or a meticulous straight razor shave, we utilize high-end products and masterful techniques to help you look and feel your absolute best.
-      </p>
+
+    <div style="margin-top: 50px;">
+      <a href="{{ site.baseurl }}/services/" class="btn-primary" style="background: transparent; border-color: rgba(255,255,255,0.2); color: #fff !important; box-shadow: none;">View All Services</a>
     </div>
   </div>
 </section>
 
-<section class="section fade-up">
-  <div class="review-box">
-    <div class="stars">★★★★★</div>
-    <p style="font-size: 1.4rem; font-style: italic; color: var(--text-light); line-height: 1.6;">"The premier barber shop in Sioux Falls SD. Nathaniel’s attention to detail is truly unmatched, and the atmosphere is pure luxury. I won't trust my hair to anyone else."</p>
-    <h4 style="color: var(--accent-gold); margin-top: 30px; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">- Local Client</h4>
+<section class="section">
+  <div class="container" style="text-align: center; max-width: 800px;">
+    <h2 class="section-title">Why Choose Nathaniel</h2>
+    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 20px;">
+      Nathaniel’s Barber Shop delivers a premium appointment based barber experience with focused attention, high quality grooming, and a cleaner, more personal atmosphere.
+    </p>
+    <p style="color: var(--text-muted); font-size: 1.1rem;">
+      Whether you want a fresh haircut, beard clean up, or a traditional straight razor shave, every service is built around detail, consistency, and a sharp finish.
+    </p>
   </div>
 </section>
 
-<section class="section fade-up" style="text-align: center;">
-  <h2 class="section-title" style="margin-bottom: 20px;">Visit Us</h2>
-  <p style="color: var(--text-light); font-size: 1.2rem; margin-bottom: 10px;">1401 West 10th Street, Sioux Falls SD 57104</p>
-  <p style="color: var(--accent-gold); font-weight: bold; margin-bottom: 40px;">By Appointment Only</p>
-  
-  <div class="image-placeholder" style="height: 350px; max-width: 900px; margin: 0 auto 50px;">
-    [Interactive Google Map Placeholder]
+<section class="section" style="padding-bottom: 120px;">
+  <div class="container" style="text-align: center;">
+    <h2 class="section-title">Visit Nathaniel’s Barber Shop</h2>
+    <p style="font-size: 1.2rem; color: var(--text-light); margin-bottom: 10px;">1401 W 10th St, Sioux Falls, SD 57104</p>
+    <p style="font-size: 1.1rem; color: var(--accent-gold); font-weight: 600;">Strictly by appointment only</p>
+
+    <div style="margin-top: 40px;">
+      <a href="{{ site.baseurl }}/book/" class="btn-primary">Book Your Appointment</a>
+    </div>
   </div>
-  
-  <a href="/book/" class="btn-gold" style="font-size: 1.1rem; padding: 20px 40px;">Book Your Appointment Now</a>
 </section>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.15
-    };
-
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target); // Run once per element
-        }
-      });
-    }, observerOptions);
-
-    document.querySelectorAll('.fade-up').forEach((el) => {
-      observer.observe(el);
-    });
-  });
-</script>
