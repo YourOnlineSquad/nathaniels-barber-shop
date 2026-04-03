@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Nathaniel's Barber Shop - Master Stylesheet (RESTORED)
+   Nathaniel's Barber Shop - Master Stylesheet (RESTORED & FINAL)
    ========================================================================== */
 
 /* --- 1. GLOBAL VARIABLES --- */
@@ -245,7 +245,7 @@ main { flex: 1; position: relative; z-index: 10; }
   display: block; 
 }
 
-/* The Intense Gold Glow from the Screenshot */
+/* Gold glow class for normal floating cards */
 .card:hover {
   transform: translateY(-15px) scale(1.02);
   border-color: rgba(212, 175, 55, 0.8);
