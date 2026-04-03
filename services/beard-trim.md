@@ -6,7 +6,7 @@ title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 <header class="hero-cinematic">
   <div class="container" style="max-width: 1000px; padding: 0 20px;">
     <span class="eyebrow-text">Signature Maintenance</span>
-    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Beard Trim</h1>
+    <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 4.5rem);">Beard Trim in Sioux Falls SD</h1>
     <div class="accent-line"></div>
     <p class="hero-subtitle" style="font-size: 20px; max-width: 800px; margin: 0 auto;">Expert sculpting and conditioning for the perfect beard in Sioux Falls SD. Elevate your facial hair from unruly to undeniably sharp with our master barbers.</p>
   </div>
