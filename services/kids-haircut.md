@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
@@ -16,14 +16,14 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
   <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
 
     <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 60px rgba(255, 215, 0, 0.4), 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px; transition: all 0.4s ease;">
-      <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-Kids-haircut.webp" alt="Master barber giving a precision kids haircut in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+      <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-clipper-Kids-haircut-fade.webp" alt="Master barber performing a precision kids fade haircut in the Sioux Empire" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
       Finding a barber who is both technically skilled and patient with children can be a challenge. At Nathaniel's Barber Shop, we treat our junior clients with the exact same respect and uncompromised craftsmanship as our adults. We reject the rushed, "assembly-line" kid cuts. Instead, we deliver a relaxed, professional session that results in a sharp, easily manageable style.
     </p>
 
-    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent-gold);"></div>
+    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent Gold);"></div>
 
     <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Barbering</h3>
     
@@ -64,7 +64,7 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; margin-bottom: 100px; text-align: left; align-items: center; padding: 0 10px;">
       
       <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 60px rgba(255, 215, 0, 0.4), 0 20px 40px rgba(0,0,0,0.6); transition: all 0.4s ease;">
-        <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-clipper-Kids-haircut-fade.webp" alt="Professional and calm kids haircut experience at a luxury barber shop in Sioux Falls" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
+        <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-Kids-haircut.webp" alt="Close-up of a perfectly styled kids haircut at Nathaniel's Barber Shop" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/5;">
       </div>
 
       <div>
