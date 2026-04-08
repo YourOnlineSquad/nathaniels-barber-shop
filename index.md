@@ -31,17 +31,18 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
     100% { transform: translateY(0px); }
   }
   
-  .glowing-animated-chair {
+  /* Modified style: removed box-shadow, kept other properties */
+  .animated-chair {
     display: block;
     margin: 0 auto 40px auto; 
     width: 100%;
     max-width: 450px; 
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); 
     animation: chairFloat 4s ease-in-out infinite;
   }
-  
+
+  /* Style for smaller logos */
   .nathaniel-logo {
     display: block;
     margin: 20px auto 30px auto;
@@ -49,11 +50,22 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
     max-width: 250px;
     height: auto;
   }
+
+  /* New large hero logo style */
+  .nathaniel-logo-hero {
+    display: block;
+    margin: 0 auto 30px auto; /* Centers and creates large bottom space */
+    width: 100%;
+    max-width: 450px; /* Bigger logo, adjusting padding to work with section's top padding */
+    height: auto;
+  }
 </style>
 
 <section class="section" style="padding-top: 140px; padding-bottom: 90px; position: relative; background: transparent;">
   <div class="container" style="text-align: center; max-width: 900px;">
     
+    <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barber Shop Logo" class="nathaniel-logo-hero">
+
     <span class="eyebrow-text" style="display: block; color: var(--accent-gold); letter-spacing: 4px; text-transform: uppercase; font-size: 0.85rem; margin-bottom: 20px; font-weight: 700;">Master Craftsmanship & Grooming</span>
     
     <h1 style="font-size: clamp(3rem, 6vw, 4.5rem); line-height: 1.1; margin-bottom: 25px; text-shadow: 0 10px 30px rgba(0,0,0,0.8); font-family: var(--font-heading);">
@@ -79,7 +91,7 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
 <section class="section">
   <div class="container" style="text-align: center;">
     
-    <img src="{{ site.baseurl }}/assets/images/barber/barber-chair-modern-sioux-falls-shop.webp" alt="Modern Barber Chair at our Barbershop in Sioux Falls" class="glowing-animated-chair">
+    <img src="{{ site.baseurl }}/assets/images/barber/barber-chair-modern-sioux-falls-shop.webp" alt="Modern Barber Chair at our Barbershop in Sioux Falls" class="animated-chair">
 
     <h2 class="section-title">Signature Services at our Sioux Falls Barber Shop</h2>
     <p style="color: var(--text-muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">
@@ -122,7 +134,7 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
       Finding a reliable barber can be a challenge, which is why the Nathaniel Standard was created. We believe that a trip to the barbershop shouldn't feel like an errand; it should feel like an upgrade. Our shop delivers a premium, appointment-based experience with focused attention, high-quality maintenance, and a private, professional atmosphere. 
     </p>
     <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
-      We are proud to serve the local community here in South Dakota. Whether you are stepping in for a fresh taper before the weekend, detailed beard sculpting, or a traditional straight razor shave, every single service is built around absolute detail, unwavering consistency, and a sharp, lasting finish. We don't just cut hair; we craft confidence.
+      We are proud to serve the local community here in South Dakota. Whether you are stepping in for a fresh taper before the weekend, detailed beard sculpting, or a traditional straight razor shave, every single service is built around detail, consistency, and a sharp, lasting finish. We don't just cut hair; we craft confidence.
     </p>
   </div>
 </section>
