@@ -1,4 +1,4 @@
----
+ ---
 layout: default
 title: Beard Trim in Sioux Falls SD | Nathaniel’s Barber Shop
 ---
