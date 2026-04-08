@@ -33,7 +33,7 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
   
   .animated-chair {
     display: block;
-    margin: 10px auto 40px auto; /* Reduced top margin to close the gap */
+    margin: 10px auto 40px auto; 
     width: 100%;
     max-width: 450px; 
     height: auto;
@@ -41,19 +41,19 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
     animation: chairFloat 4s ease-in-out infinite;
   }
 
-  /* Large Hero Branding Logo */
+  /* Main Hero Logo */
   .nathaniel-logo-main {
     display: block;
     margin: 0 auto 40px auto;
     width: 100%;
-    max-width: 600px; /* Increased size significantly for branding */
+    max-width: 600px; 
     height: auto;
   }
 
-  /* Secondary section logo */
+  /* Standard Section Logo */
   .nathaniel-logo-sub {
     display: block;
-    margin: 20px auto 30px auto;
+    margin: 0 auto 25px auto; /* Centered, placed above title */
     width: 100%;
     max-width: 350px;
     height: auto;
@@ -124,10 +124,11 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
 </section>
 
 <section class="section" style="background: rgba(10, 12, 18, 0.4); border-top: 1px solid var(--border-glow); border-bottom: 1px solid var(--border-glow);">
-  <div class="container" style="text-align: center; max-width: 800px;">
-    <h2 class="section-title">The Nathaniel Standard for Men's Grooming</h2>
+  <div class="container" style="text-align: center; max-width: 800px; padding-top: 40px;">
     
     <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barbershop in Sioux Falls SD Logo" class="nathaniel-logo-sub">
+
+    <h2 class="section-title">The Nathaniel Standard for Men's Grooming</h2>
 
     <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 20px; line-height: 1.8;">
       We believe that a trip to the barbershop should feel like an upgrade. Our shop delivers a premium, appointment-based experience with focused attention and high-quality maintenance. 
