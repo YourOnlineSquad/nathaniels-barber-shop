@@ -31,10 +31,9 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
     100% { transform: translateY(0px); }
   }
   
-  /* Modified style: removed box-shadow, kept other properties */
   .animated-chair {
     display: block;
-    margin: 0 auto 40px auto; 
+    margin: 10px auto 40px auto; /* Reduced top margin to close the gap */
     width: 100%;
     max-width: 450px; 
     height: auto;
@@ -42,29 +41,29 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
     animation: chairFloat 4s ease-in-out infinite;
   }
 
-  /* Style for smaller logos */
-  .nathaniel-logo {
+  /* Large Hero Branding Logo */
+  .nathaniel-logo-main {
     display: block;
-    margin: 20px auto 30px auto;
+    margin: 0 auto 40px auto;
     width: 100%;
-    max-width: 250px;
+    max-width: 600px; /* Increased size significantly for branding */
     height: auto;
   }
 
-  /* New large hero logo style */
-  .nathaniel-logo-hero {
+  /* Secondary section logo */
+  .nathaniel-logo-sub {
     display: block;
-    margin: 0 auto 30px auto; /* Centers and creates large bottom space */
+    margin: 20px auto 30px auto;
     width: 100%;
-    max-width: 450px; /* Bigger logo, adjusting padding to work with section's top padding */
+    max-width: 350px;
     height: auto;
   }
 </style>
 
-<section class="section" style="padding-top: 140px; padding-bottom: 90px; position: relative; background: transparent;">
+<section class="section" style="padding-top: 100px; padding-bottom: 90px; position: relative; background: transparent;">
   <div class="container" style="text-align: center; max-width: 900px;">
     
-    <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barber Shop Logo" class="nathaniel-logo-hero">
+    <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barber Shop Logo" class="nathaniel-logo-main">
 
     <span class="eyebrow-text" style="display: block; color: var(--accent-gold); letter-spacing: 4px; text-transform: uppercase; font-size: 0.85rem; margin-bottom: 20px; font-weight: 700;">Master Craftsmanship & Grooming</span>
     
@@ -73,11 +72,11 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
     </h1>
     
     <p style="font-size: 1.15rem; color: #b0b8c1; line-height: 1.8; margin-bottom: 20px; padding: 0 20px;">
-      Welcome to Nathaniel's Barber Shop, the premier destination for a tailored grooming experience. If you are searching for the best <strong>barbershop in Sioux Falls, SD</strong>, look no further. We have built our reputation on providing the modern gentleman with a space where classic barbering techniques meet contemporary style. 
+      Welcome to Nathaniel's Barber Shop, the premier destination for a tailored grooming experience. If you are searching for the best <strong>barbershop in Sioux Falls, SD</strong>, look no further. 
     </p>
     
     <p style="font-size: 1.15rem; color: #b0b8c1; line-height: 1.8; margin-bottom: 45px; padding: 0 20px;">
-      Whether you need a sharp executive contour, a seamless skin fade, or meticulous beard maintenance, our focus is entirely on you. We specialize in precision cuts and luxury hot towel shaves that leave you feeling refreshed and confident. We operate strictly by appointment to ensure every client receives uninterrupted, elite-level service.
+      Whether you need a sharp executive contour, a seamless skin fade, or meticulous beard maintenance, our focus is entirely on you. We operate strictly by appointment to ensure every client receives uninterrupted, elite-level service.
     </p>
     
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
@@ -95,26 +94,26 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
 
     <h2 class="section-title">Signature Services at our Sioux Falls Barber Shop</h2>
     <p style="color: var(--text-muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6;">
-      Great style isn't rushed. Explore our most popular services designed to elevate your look. From the moment you sit in our chair, you will understand why we are considered a top-rated barbershop in Sioux Falls, SD. Book the right appointment for your next visit below.
+      From the moment you sit in our chair, you will understand why we are considered a top-rated barbershop in Sioux Falls, SD. Book the right appointment for your next visit below.
     </p>
 
     <div class="card-grid">
       <a href="{{ site.baseurl }}/services/mens-haircut" class="card float-element">
         <svg class="service-icon" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
         <h3>Mens Haircut</h3>
-        <p>Clean fades, classic styles, and modern precision cuts. We tailor every single haircut to your specific head shape, hair texture, and lifestyle needs for a flawless finish.</p>
+        <p>Clean fades, classic styles, and modern precision cuts. We tailor every single haircut to your specific head shape and hair texture.</p>
       </a>
 
       <a href="{{ site.baseurl }}/services/beard-trim" class="card float-element" style="animation-delay: 1s;">
         <svg class="service-icon" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
         <h3>Beard Maintenance</h3>
-        <p>Your beard deserves as much attention as your hair. Enjoy sharp lines, balanced shaping, bulk reduction, and a cleaner overall look treated with premium oils and balms.</p>
+        <p>Enjoy sharp lines, balanced shaping, and a cleaner overall look treated with premium grooming oils and balms.</p>
       </a>
 
       <a href="{{ site.baseurl }}/services/shave" class="card float-element" style="animation-delay: 2s;">
         <svg class="service-icon" viewBox="0 0 24 24"><path d="M3 10V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5"/><path d="M7 15h10"/><path d="M12 15v5"/></svg>
         <h3>Straight Razor Shave</h3>
-        <p>Experience the ultimate relaxation with our traditional hot towel shaving service. We use rich, warm lather and precise razor techniques to leave your skin incredibly smooth.</p>
+        <p>Experience relaxation with our traditional hot towel shaving service. We use rich, warm lather and precise razor techniques.</p>
       </a>
     </div>
 
@@ -128,13 +127,13 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
   <div class="container" style="text-align: center; max-width: 800px;">
     <h2 class="section-title">The Nathaniel Standard for Men's Grooming</h2>
     
-    <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barbershop in Sioux Falls SD Logo" class="nathaniel-logo">
+    <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barbershop in Sioux Falls SD Logo" class="nathaniel-logo-sub">
 
     <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 20px; line-height: 1.8;">
-      Finding a reliable barber can be a challenge, which is why the Nathaniel Standard was created. We believe that a trip to the barbershop shouldn't feel like an errand; it should feel like an upgrade. Our shop delivers a premium, appointment-based experience with focused attention, high-quality maintenance, and a private, professional atmosphere. 
+      We believe that a trip to the barbershop should feel like an upgrade. Our shop delivers a premium, appointment-based experience with focused attention and high-quality maintenance. 
     </p>
     <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
-      We are proud to serve the local community here in South Dakota. Whether you are stepping in for a fresh taper before the weekend, detailed beard sculpting, or a traditional straight razor shave, every single service is built around detail, consistency, and a sharp, lasting finish. We don't just cut hair; we craft confidence.
+      Whether you are stepping in for a fresh taper or traditional straight razor shave, every single service is built around absolute detail, unwavering consistency, and a sharp, lasting finish.
     </p>
   </div>
 </section>
@@ -143,7 +142,7 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
   <div class="container" style="text-align: center;">
     <h2 class="section-title">Visit Our Barber Shop in Sioux Falls, SD</h2>
     <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6;">
-      Ready to upgrade your look? We are conveniently located in the heart of the city. Because we value your time and pride ourselves on a zero-wait experience, walk-ins are not accepted. Secure your spot on our calendar today.
+      Ready to upgrade your look? We are conveniently located in the heart of the city. Secure your spot on our calendar today.
     </p>
     
     <p style="font-size: 1.4rem; color: var(--text-light); margin-bottom: 10px;">1401 W 10th St, Sioux Falls, SD 57104</p>
