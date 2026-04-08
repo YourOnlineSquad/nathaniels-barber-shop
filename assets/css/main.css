@@ -1,4 +1,4 @@
- /* ==========================================================================
+/* ==========================================================================
    Nathaniel's Barber Shop - Master Stylesheet (RESTORED & FINAL)
    ========================================================================== */
 
@@ -20,9 +20,18 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
-/* --- 2. REALISTIC SPACE ENVIRONMENT --- */
+/* --- 2. REALISTIC SPACE AMBIENCE (NEBULA & SHOOTING STARS) --- */
 body {
   background-color: var(--bg-deep-space);
+  /* Deep space purple/blue nebula effect mixed with tiny static stars */
+  background-image: 
+    radial-gradient(circle at 15% 30%, rgba(75, 20, 110, 0.25), transparent 40%),
+    radial-gradient(circle at 85% 70%, rgba(20, 60, 100, 0.25), transparent 40%),
+    radial-gradient(1px 1px at 20px 30px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 100px 150px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 250px 50px, rgba(255,255,255,0.3), transparent);
+  background-size: 100% 100%, 100% 100%, 300px 300px, 300px 300px, 300px 300px;
+  background-attachment: fixed;
   color: var(--text-light);
   font-family: var(--font-body);
   line-height: 1.6;
@@ -32,58 +41,61 @@ body {
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
-  /* Base layer of static tiny stars */
-  background-image: 
-    radial-gradient(1px 1px at 20px 30px, #eee, transparent),
-    radial-gradient(1.5px 1.5px at 100px 150px, #fff, transparent),
-    radial-gradient(1px 1px at 250px 50px, rgba(255,255,255,0.3), transparent);
-  background-size: 300px 300px;
 }
 
-/* Twinkling Depth Stars */
+/* Twinkling & Glowing Stars Layer */
 body::before {
   content: '';
   position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%;
+  top: 0; left: 0; width: 100vw; height: 100vh;
   z-index: -2;
+  /* Brighter, larger stars */
   background-image: 
     radial-gradient(2px 2px at 50px 100px, #fff, transparent),
-    radial-gradient(2px 2px at 200px 300px, var(--accent-gold), transparent),
-    radial-gradient(3px 3px at 400px 150px, #fff, transparent);
+    radial-gradient(3px 3px at 200px 300px, var(--accent-gold), transparent),
+    radial-gradient(2.5px 2.5px at 400px 150px, #fff, transparent),
+    radial-gradient(3px 3px at 600px 500px, rgba(200, 150, 255, 0.9), transparent);
   background-size: 450px 450px;
-  animation: spaceTwinkle 10s ease-in-out infinite;
-  opacity: 0.4;
+  animation: spaceTwinkle 8s ease-in-out infinite alternate;
+  /* Adds a literal glowing halo around these stars */
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.6));
 }
 
-/* Drifting Asteroids */
+/* Shooting Stars */
 body::after {
   content: '';
   position: fixed;
-  top: -200px;
-  right: -200px;
-  width: 120px;
-  height: 100px;
+  top: 10%;
+  right: -10%;
+  width: 180px;
+  height: 2px;
   z-index: -1;
-  /* Dark rocky texture for asteroid */
-  background: radial-gradient(circle at 30% 30%, #444, #111);
-  box-shadow: inset -5px -5px 15px #000, 5px 5px 20px rgba(0,0,0,0.8);
-  /* Irregular rock shape */
-  clip-path: polygon(20% 0%, 80% 10%, 100% 40%, 80% 90%, 30% 100%, 0% 70%, 10% 30%);
-  filter: blur(1px);
-  opacity: 0.3;
-  animation: asteroidDrift 40s linear infinite;
+  /* Bright white core fading into a gold tail */
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.6), #fff);
+  /* Strong glow effect for the shooting star */
+  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px var(--accent-gold));
+  border-radius: 50%;
+  animation: shootingStar 18s linear infinite; /* Fires every 18 seconds */
+  opacity: 0;
 }
 
+/* Animations for Space Elements */
 @keyframes spaceTwinkle {
-  0%, 100% { opacity: 0.2; transform: scale(1); }
-  50% { opacity: 0.7; transform: scale(1.05); }
+  0% { opacity: 0.3; transform: scale(1); }
+  100% { opacity: 0.9; transform: scale(1.08); }
 }
 
-@keyframes asteroidDrift {
-  0% { transform: translate(0, 0) rotate(0deg); opacity: 0; }
-  10% { opacity: 0.3; }
-  90% { opacity: 0.3; }
-  100% { transform: translate(-120vw, 120vh) rotate(360deg); opacity: 0; }
+@keyframes shootingStar {
+  0% { transform: translate(0, 0) rotate(215deg); opacity: 0; }
+  5% { opacity: 1; }
+  12% { transform: translate(-120vw, 120vh) rotate(215deg); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes floatUpDown {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
 }
 
 /* --- 3. TYPOGRAPHY & LINKS --- */
@@ -94,6 +106,7 @@ h1, h2, h3, h4 {
   text-shadow: 0 2px 15px rgba(0,0,0,0.8);
 }
 
+/* Inheriting color prevents links from ever turning purple */
 a { text-decoration: none; transition: var(--transition-smooth); color: inherit; }
 
 /* --- 4. REUSABLE CONTAINERS --- */
@@ -147,7 +160,7 @@ main { flex: 1; position: relative; z-index: 10; }
 }
 .nav-menu > ul > li > a:hover { color: var(--accent-gold); text-shadow: 0 0 10px rgba(212, 175, 55, 0.6); }
 
-/* --- ADVANCED MEGA MENU --- */
+/* --- ADVANCED MEGA MENU (RESTORED) --- */
 .nav-item-dropdown { position: relative; }
 
 .mega-menu {
@@ -268,6 +281,7 @@ main { flex: 1; position: relative; z-index: 10; }
   display: block; 
 }
 
+/* Gold glow class for normal floating cards */
 .card:hover {
   transform: translateY(-15px) scale(1.02);
   border-color: rgba(212, 175, 55, 0.8);
@@ -278,12 +292,6 @@ main { flex: 1; position: relative; z-index: 10; }
 
 .card h3 { font-size: 1.6rem; margin-bottom: 1rem; color: var(--text-light); }
 .card p { color: var(--text-muted); margin-bottom: 1.5rem; }
-
-@keyframes floatUpDown {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-12px); }
-  100% { transform: translateY(0px); }
-}
 
 .float-element {
   animation: floatUpDown 6s ease-in-out infinite;
@@ -393,76 +401,4 @@ main { flex: 1; position: relative; z-index: 10; }
   .nav-menu ul { flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
   .section { padding: 60px 0; }
   .btn-primary { padding: 12px 24px; }
-}
-
-/* --- 11. SPECIAL BRANDING & ANIMATIONS (HOMEPAGE EFFECTS) --- */
-
-/* Main Hero Logo - Extreme Shine & Glow */
-.nathaniel-logo-main {
-  display: block;
-  margin: 0 auto 40px auto;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  position: relative;
-  z-index: 20;
-  animation: logoExtremeGlow 4s ease-in-out infinite;
-}
-
-@keyframes logoExtremeGlow {
-  0%, 100% { filter: drop-shadow(0 0 10px var(--accent-gold)) brightness(1); }
-  50% { filter: drop-shadow(0 0 40px var(--accent-gold)) drop-shadow(0 0 15px #fff) brightness(1.3); }
-}
-
-/* Rising Star Particles */
-.particle-streams {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 10;
-}
-
-.particle-streams::before, .particle-streams::after {
-  content: '✦';
-  position: absolute;
-  color: #fff;
-  text-shadow: 0 0 10px var(--accent-gold);
-  font-size: 14px;
-  animation: risingStar 5s linear infinite;
-  opacity: 0;
-}
-
-.particle-streams::after {
-  animation-delay: 2.5s;
-  left: 30%;
-  font-size: 10px;
-}
-
-@keyframes risingStar {
-  0% { transform: translateY(50px) scale(0); opacity: 0; }
-  20% { opacity: 1; }
-  100% { transform: translateY(-300px) scale(1.5) rotate(180deg); opacity: 0; }
-}
-
-/* Clean Animated Chair (No Glow) */
-.animated-chair {
-  display: block;
-  margin: -20px auto 40px auto; 
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-  animation: floatUpDown 5s ease-in-out infinite;
-}
-
-/* Secondary Logo (The Standard section) */
-.nathaniel-logo-sub {
-  display: block;
-  margin: 0 auto 25px auto;
-  width: 100%;
-  max-width: 350px;
-  height: auto;
 }
