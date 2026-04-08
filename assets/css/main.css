@@ -20,6 +20,19 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
+body {
+  background-color: var(--bg-deep-space);
+  color: var(--text-light);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
 /* --- 2. NASA MILKY WAY AMBIENCE (FLASHING & MOVING STARS) --- */
 body {
   background-color: #020308; /* Deepest space blue/black */
@@ -33,15 +46,6 @@ body {
     radial-gradient(1px 1px at 90% 10%, rgba(255,255,255,0.3), transparent);
   background-size: 100% 150%, 100% 150%, 150px 150px, 250px 250px, 200px 200px, 300px 300px;
   background-attachment: fixed;
-  color: var(--text-light);
-  font-family: var(--font-body);
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
 }
 
 /* Moving & Flashing Stars Layer */
@@ -62,8 +66,6 @@ body::before {
   /* Flashing and slowly drifting across the screen */
   animation: spaceFlash 4s ease-in-out infinite alternate, slowPan 150s linear infinite;
 }
-
-/* THE ASTEROID / SHOOTING STAR HAS BEEN COMPLETELY REMOVED */
 
 /* --- SPACE ANIMATIONS --- */
 @keyframes spaceFlash {
@@ -101,7 +103,7 @@ main { flex: 1; position: relative; z-index: 10; }
 
 /* --- 5. HEADER & NAVBAR --- */
 .site-header {
-  position: sticky;
+  position: relative; /* Fixed: No longer follows you down the page */
   top: 0;
   z-index: 1000;
   background: rgba(5, 6, 8, 0.75);
@@ -116,11 +118,12 @@ main { flex: 1; position: relative; z-index: 10; }
 
 .logo {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: clamp(1.4rem, 5vw, 2rem); /* Auto-scales down so it doesn't wrap on mobile */
   color: var(--accent-gold);
   letter-spacing: 1px;
   font-weight: 900;
   text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+  text-align: center;
 }
 .logo:hover { transform: scale(1.02); text-shadow: 0 0 25px rgba(212, 175, 55, 0.9); }
 
@@ -247,6 +250,40 @@ main { flex: 1; position: relative; z-index: 10; }
   border-color: var(--accent-red);
   box-shadow: 0 15px 30px rgba(160, 29, 29, 0.6);
   transform: translateY(-5px) scale(1.03);
+}
+
+/* --- NEW ANIMATED GLOWING BUTTON (For the Header) --- */
+.btn-glow-animate {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, var(--accent-gold) 0%, #ffe066 100%);
+  color: #050608 !important; 
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+  animation: pulseGlow 2s infinite alternate, floatBtn 3s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+.btn-glow-animate:hover {
+  animation-play-state: paused;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212, 175, 55, 1);
+  background: #fff;
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 10px rgba(212, 175, 55, 0.3); }
+  100% { box-shadow: 0 0 25px rgba(212, 175, 55, 0.9); }
+}
+
+@keyframes floatBtn {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
 }
 
 /* --- 7. CARDS & GLOW EFFECTS --- */
@@ -381,8 +418,34 @@ main { flex: 1; position: relative; z-index: 10; }
 
 /* --- 10. MOBILE --- */
 @media (max-width: 768px) {
-  .navbar { flex-direction: column; gap: 1rem; }
-  .nav-menu ul { flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+  .site-header { padding: 15px 0; }
+  
+  .navbar { 
+    flex-direction: column; 
+    gap: 12px; 
+  }
+  
+  .nav-menu ul { 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px; 
+    align-items: center;
+  }
+  
+  .nav-menu > ul > li > a {
+    padding: 5px 10px;
+    font-size: 0.85rem;
+  }
+  
+  .btn-glow-animate {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
   .section { padding: 60px 0; }
   .btn-primary { padding: 12px 24px; }
+  
+  .mega-menu { display: none !important; } 
 }
