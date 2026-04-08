@@ -4,27 +4,22 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
 ---
 
 <style>
-  @keyframes subtleFloat {
-    0% { transform: translateY(0); }
+  @keyframes chairFloat {
+    0% { transform: translateY(0px); }
     50% { transform: translateY(-12px); }
-    100% { transform: translateY(0); }
+    100% { transform: translateY(0px); }
   }
-
-  .glowing-chair {
+  .glowing-animated-chair {
     max-width: 100%;
-    width: 500px; /* Adjust as needed */
-    height: auto;
-    border-radius: 12px; /* Smooths the edges */
-    box-shadow: 0 0 30px rgba(212, 175, 55, 0.5), 0 0 15px rgba(212, 175, 55, 0.3); /* Gold glow */
-    animation: subtleFloat 4s ease-in-out infinite;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); /* Gold glow */
+    animation: chairFloat 4s ease-in-out infinite;
     margin-bottom: 40px;
   }
-
-  .shop-logo {
-    max-width: 100%;
-    width: 250px; /* Adjust size to your preference */
+  .nathaniel-logo {
+    max-width: 250px;
     height: auto;
-    margin: 10px auto 30px auto;
+    margin: 20px auto 30px auto;
     display: block;
   }
 </style>
@@ -53,7 +48,7 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
 <section class="section">
   <div class="container" style="text-align: center;">
     
-        <img src="{{ site.baseurl }}/barber-chair-modern-sioux-falls-shop.webp" alt="Modern Barber Chair" class="glowing-chair">
+        <img src="{{ site.baseurl }}/barber-chair-modern-sioux-falls-shop.webp" alt="Modern Barber Chair" class="glowing-animated-chair">
 
     <h2 class="section-title">Signature Services</h2>
     <p style="color: var(--text-muted); margin-bottom: 60px;">
@@ -90,7 +85,7 @@ title: Premium Barber Shop in Sioux Falls, SD | Nathaniel’s Barber Shop
   <div class="container" style="text-align: center; max-width: 800px;">
     <h2 class="section-title">The Nathaniel Standard</h2>
     
-        <img src="{{ site.baseurl }}/Nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barber Shop Logo" class="shop-logo">
+        <img src="{{ site.baseurl }}/Nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barber Shop Logo" class="nathaniel-logo">
 
     <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 20px; line-height: 1.8;">
       Nathaniel’s Barber Shop delivers a premium appointment-based experience with focused attention, high-quality maintenance, and a private, professional atmosphere.
