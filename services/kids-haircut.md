@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
+description: Calm, professional kids haircuts in Sioux Falls SD. Nathaniel's Barber Shop provides unhurried, precision styling for junior clients in a private environment.
 ---
 
 <header class="hero-cinematic">
@@ -23,9 +24,9 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       Finding a barber who is both technically skilled and patient with children can be a challenge. At Nathaniel's Barber Shop, we treat our junior clients with the exact same respect and uncompromised craftsmanship as our adults. We reject the rushed, "assembly-line" kid cuts. Instead, we deliver a relaxed, professional session that results in a sharp, easily manageable style.
     </p>
 
-    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent Gold);"></div>
+    <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent-gold);"></div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Barbering</h3>
+    <h2 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Approach to Junior Barbering</h2>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
@@ -34,7 +35,7 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">A Calm Environment</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">A Calm Environment</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">Haircuts can be overwhelming for younger clients. Our private, one-on-one shop environment eliminates the loud noises and chaotic waiting rooms, providing a peaceful, sensory-friendly experience.</p>
         </div>
       </div>
@@ -44,7 +45,7 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Uncompromised Skill</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Uncompromised Skill</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We do not lower our standards for junior cuts. Your child will receive the same structural fading, masterful scissor work, and precision detailing that has made our shop a staple in the community.</p>
         </div>
       </div>
@@ -54,7 +55,7 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Parent-Friendly Styling</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Parent-Friendly Styling</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We design cuts that look incredible leaving the chair, but more importantly, we create shapes that are easy for parents to manage and style on busy weekday mornings.</p>
         </div>
       </div>
@@ -68,12 +69,12 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       </div>
 
       <div>
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Building Confidence</h3>
+        <h2 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Building Confidence</h2>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
           A great haircut does wonders for a young man's confidence. Whether it is for back-to-school photos, a special event in Minnehaha County, or just routine maintenance, we work with parents and kids to find a style they genuinely love and feel proud to wear.
         </p>
 
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Unrushed Promise</h3>
+        <h2 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Unrushed Promise</h2>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
           Children can be unpredictable, and that is perfectly okay. By operating entirely on an appointment-only schedule, we ensure we have ample time blocked out. We never rush a service, allowing us to adapt to the child's pace and ensure maximum safety and precision.
         </p>
@@ -82,42 +83,36 @@ title: Kids Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
     </div>
 
     <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 60px 20px; margin-bottom: 80px; background: linear-gradient(90deg, transparent, rgba(10, 12, 18, 0.8), transparent);">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Book Their Next Haircut</h3>
+      <h2 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Book Their Next Haircut</h2>
       <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
     </div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h3>
+    <h2 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h2>
     
     <div style="max-width: 800px; margin: 0 auto 80px; text-align: left;">
-      
       <details class="faq-details">
         <summary class="faq-summary">What is the age limit for a kids haircut?</summary>
         <p class="faq-answer">We welcome junior clients of all ages, provided they are able to sit relatively independently in the barber chair. Safety is our top priority when working with sharp shears and clippers.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">How much time is blocked out for this service?</summary>
         <p class="faq-answer">We block out the exact same amount of time for a junior cut as we do an adult cut. We refuse to rush the process, ensuring your child stays comfortable and the final result is absolutely precise.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">Do you take walk ins or do I need an appointment?</summary>
         <p class="faq-answer">Nathaniel operates strictly by appointment only. This is especially beneficial for children, as it guarantees they won't have to wait in a crowded, noisy lobby before their turn.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">What is your cancellation and deposit policy?</summary>
         <p class="faq-answer">We require a deposit to secure your booking. If you cannot make your appointment, we kindly ask for over twenty four hours of notice. Without ample notification, we lose vital revenue for that specific time slot, so the deposit will be retained.</p>
       </details>
-      
       <details class="faq-details">
         <summary class="faq-summary">Where exactly is your shop located?</summary>
         <p class="faq-answer">We operate out of a premium private physical location right here in Sioux Falls SD. You will receive exact directions and details upon completing your secure booking through our StyleSeat portal.</p>
       </details>
-
     </div>
 
-    <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h3>
+    <h2 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h2>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="{{ site.baseurl }}/services/mens-haircut" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Mens Haircut</a>
       <a href="{{ site.baseurl }}/services/line-up" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Line Up</a>
