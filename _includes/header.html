@@ -1,3 +1,70 @@
+<style>
+  /* 1. Stops the header from following you down the page */
+  .site-header {
+    position: relative !important; 
+    top: 0;
+  }
+
+  /* 2. Prevents the logo from awkwardly stacking on top of itself on mobile */
+  .site-header .logo {
+    font-size: clamp(1.4rem, 5vw, 2.2rem) !important;
+    text-align: center;
+    display: block;
+  }
+
+  /* 3. The Tall, Solid Gold Glowing Button Plaque */
+  .btn-glow-animate {
+    display: inline-block;
+    padding: 18px 28px !important; /* Makes it vertically taller */
+    background: linear-gradient(180deg, #f2d06b 0%, #d4af37 100%) !important; /* Solid gold */
+    color: #050608 !important; /* Dark text */
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    border-radius: 8px; 
+    text-decoration: none;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.5) !important;
+    animation: pulseGlow 2s infinite alternate, floatBtn 3s ease-in-out infinite;
+    transition: all 0.3s ease;
+    line-height: 1;
+    border: none !important;
+  }
+
+  .btn-glow-animate:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(242, 208, 107, 0.8) !important;
+    background: linear-gradient(180deg, #ffe58f 0%, #e6c24a 100%) !important;
+  }
+
+  @keyframes pulseGlow {
+    0% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); }
+    100% { box-shadow: 0 0 30px rgba(212, 175, 55, 0.8); }
+  }
+
+  @keyframes floatBtn {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+
+  /* 4. Fixes the alignment and spacing specifically for Mobile screens */
+  @media (max-width: 768px) {
+    .site-header { padding: 15px 0 !important; }
+    .site-header .navbar { flex-direction: column; gap: 12px; }
+    .site-header .nav-menu ul { 
+      flex-direction: row !important; 
+      flex-wrap: wrap !important; 
+      justify-content: center !important; 
+      gap: 15px !important; 
+      align-items: center;
+    }
+    .site-header .nav-menu > ul > li > a { padding: 5px 10px !important; font-size: 0.85rem; }
+    .mega-menu { display: none !important; } /* Hides the massive dropdown box on phones */
+    .btn-glow-animate { padding: 12px 20px !important; font-size: 0.8rem; margin-top: 5px; }
+  }
+</style>
+
 <header class="site-header">
   <div class="container navbar">
     <a href="{{ site.baseurl }}/" class="logo">Nathaniel's Barber Shop</a>
