@@ -16,7 +16,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
   <div class="container" style="max-width: 1100px; text-align: center; padding: 0 20px;">
 
     <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 0 60px rgba(255, 215, 0, 0.4), 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px; transition: all 0.4s ease;">
-      <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-fade-haircut.webp" alt="A master barber carefully executes a precision taper haircut on a client in a high-end Sioux Falls barber shop, providing a tailored grooming experience." style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+      <img src="{{ site.baseurl }}/assets/images/barber/barber-performing-fade-haircut-sioux-falls-south-dakota.webp" alt="A master barber carefully executes a precision taper haircut on a client in a high-end Sioux Falls barber shop, providing a tailored grooming experience." style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <p style="color: var(--text-muted); font-size: 20px; line-height: 1.8; margin: 0 auto 60px; max-width: 900px;">
