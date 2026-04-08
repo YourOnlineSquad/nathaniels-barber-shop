@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
+description: Precision hair line up and edge up services in Sioux Falls SD. Restore sharp contours around the hairline, beard, and neck at Nathaniel's Barber Shop.
 ---
 
 <header class="hero-cinematic">
@@ -25,7 +26,7 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
 
     <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent-gold);"></div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">The Edge Up Expertise</h3>
+    <h2 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">The Edge Up Expertise</h2>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
@@ -34,7 +35,7 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 4h16v16H4z"/><path d="M4 12h16"/><path d="M12 4v16"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Crisp Hairlines</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Crisp Hairlines</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We restore the natural geometry of your forehead and temples, establishing a perfectly balanced and symmetrical front profile that immediately sharpens your overall appearance.</p>
         </div>
       </div>
@@ -44,7 +45,7 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 19V5a2 2 0 0 1 2-2h13.4a.5.5 0 0 1 .49.6l-2.11 10.55A2 2 0 0 1 16 16H6.5"/><path d="M4 19a2 2 0 0 0 2 2h14"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Neckline Tapering</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Neckline Tapering</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">The back of the neck is the first place a haircut begins to look grown out. We detail the nape and behind the ears, creating a seamless transition from hair to bare skin.</p>
         </div>
       </div>
@@ -54,7 +55,7 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Beard Contours</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Beard Contours</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">We map the exact outlines of your beard on the cheeks and jawline using a straight razor. This provides maximum contrast and instantly makes the beard look fuller and well-groomed.</p>
         </div>
       </div>
@@ -68,12 +69,12 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
       </div>
 
       <div>
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Ultimate Maintenance</h3>
+        <h2 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Ultimate Maintenance</h2>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
           A line up is the secret weapon for the modern gentleman. It extends the life of your primary haircut, allowing you to maintain an immaculate appearance between larger appointments. Whether you have an important meeting or an event in the Sioux Empire, an edge up ensures you walk in with total confidence.
         </p>
 
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Uncompromised Precision</h3>
+        <h2 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Uncompromised Precision</h2>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
           Precision is our hallmark. We do not push hairlines back or create artificial, unsustainable shapes. We work *with* your natural growth patterns to carve out clean, organic lines that will grow out smoothly and evenly over the following weeks.
         </p>
@@ -82,42 +83,36 @@ title: Precision Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
     </div>
 
     <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 60px 20px; margin-bottom: 80px; background: linear-gradient(90deg, transparent, rgba(10, 12, 18, 0.8), transparent);">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Restore Your Edges Today</h3>
+      <h2 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Restore Your Edges Today</h2>
       <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
     </div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h3>
+    <h2 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h2>
     
     <div style="max-width: 800px; margin: 0 auto 80px; text-align: left;">
-      
       <details class="faq-details">
         <summary class="faq-summary">What exactly does a Line Up include?</summary>
         <p class="faq-answer">A Line Up (or edge up) strictly focuses on the perimeter of your hair. We detail the front hairline, the temples, behind the ears, the back of the neck, and the beard contours. It does not include removing length or fading the sides.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">When should I book a Line Up instead of a haircut?</summary>
         <p class="faq-answer">A Line Up is perfect for halfway between your regular haircut appointments. If your fade is growing out but you want to instantly look sharp again for the weekend or a meeting, this service is designed exactly for that.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">Do you take walk ins or do I need an appointment?</summary>
         <p class="faq-answer">Nathaniel operates strictly by appointment only. Because he is a solo barber working in his own private physical location, this ensures every client receives unhurried and undivided attention.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">What is your cancellation and deposit policy?</summary>
         <p class="faq-answer">We require a deposit to secure your booking. If you cannot make your appointment, we kindly ask for over twenty four hours of notice. Without ample notification, we lose vital revenue for that specific time slot, so the deposit will be retained.</p>
       </details>
-      
       <details class="faq-details">
         <summary class="faq-summary">Do you use a straight razor for the line up?</summary>
         <p class="faq-answer">Yes. We establish the initial geometry with precision trimmers, but we always finish the edges with a traditional straight razor to ensure the sharpest, longest-lasting lines possible.</p>
       </details>
-
     </div>
 
-    <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h3>
+    <h2 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h2>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="{{ site.baseurl }}/services/mens-haircut" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Mens Haircut</a>
       <a href="{{ site.baseurl }}/services/beard-trim" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Beard Trim</a>
