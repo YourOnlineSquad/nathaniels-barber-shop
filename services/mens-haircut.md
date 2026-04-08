@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
+description: Premium mens haircut in Sioux Falls SD. Experience expert skin fades, classic cuts, and custom styling tailored to your head shape at Nathaniel's Barber Shop.
 ---
 
 <header class="hero-cinematic">
@@ -25,7 +26,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
 
     <div style="width: 80px; height: 2px; background: var(--accent-gold); margin: 0 auto 60px; box-shadow: 0 0 15px var(--accent-gold);"></div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Core Masteries</h3>
+    <h2 style="color: var(--text-light); margin-bottom: 50px; font-size: 27px;">Our Core Masteries</h2>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 80px; text-align: left;">
       
@@ -34,7 +35,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M5 2h14v6H5z" /><path d="M7 8h10v12a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V8z" /><line x1="9" y1="2" x2="9" y2="6" /><line x1="12" y1="2" x2="12" y2="6" /><line x1="15" y1="2" x2="15" y2="6" />
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Structural Fades</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Structural Fades</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">Achieving a seamless skin fade requires absolute precision. We specialize in flawless structural gradients that dissolve perfectly into bare skin. Our execution ensures a clean grow out that remains exceptionally sharp for weeks.</p>
         </div>
       </div>
@@ -44,7 +45,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Classic Cuts</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Classic Cuts</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">True style is timeless. We execute classic gentleman cuts with masterful shear techniques creating balanced shapes that flow naturally. We meticulously manage weight distribution so your style is effortless to maintain.</p>
         </div>
       </div>
@@ -54,7 +55,7 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
           <svg style="width: 45px; height: 45px; stroke: var(--accent-gold); fill: none; margin-bottom: 20px; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="7" width="20" height="10" rx="2" ry="2"/><line x1="6" y1="17" x2="6" y2="11"/><line x1="10" y1="17" x2="10" y2="11"/><line x1="14" y1="17" x2="14" y2="11"/><line x1="18" y1="17" x2="18" y2="11"/>
           </svg>
-          <p style="font-size: 22px; margin-bottom: 15px; line-height: 1.6;"><strong style="color: var(--text-light);">Textured Shape</strong></p>
+          <h3 style="font-size: 22px; margin-bottom: 15px; line-height: 1.6; color: var(--text-light);">Textured Shape</h3>
           <p style="font-size: 18px; color: var(--text-muted); line-height: 1.6;">For a more contemporary aesthetic we excel in textured crops and flowing styles. We use advanced texturizing to remove bulk giving you a highly versatile lived in look that is incredibly easy to style at home.</p>
         </div>
       </div>
@@ -68,12 +69,12 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
       </div>
 
       <div>
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Sioux Falls Consultation Standard</h3>
+        <h2 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">The Sioux Falls Consultation Standard</h2>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6; margin-bottom: 40px;">
           We perform a rigorous structural analysis before the cape even goes on. We examine your natural growth patterns and head shape to establish a master blueprint. This ensures we are in total alignment with your specific goals providing the most personalized haircut in Minnehaha County.
         </p>
 
-        <h3 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Private Grooming in the Sioux Empire</h3>
+        <h2 style="color: var(--accent-gold); margin-bottom: 20px; font-size: 27px;">Private Grooming in the Sioux Empire</h2>
         <p style="color: var(--text-muted); font-size: 20px; line-height: 1.6;">
           Premium service demands undivided concentration. Our strictly appointment only model guarantees you receive our total focus in a calm private environment away from the noise of crowded waiting rooms. It is an elevated standard of grooming built exclusively for the modern gentleman.
         </p>
@@ -82,42 +83,36 @@ title: Mens Haircut in Sioux Falls SD | Nathaniel’s Barber Shop
     </div>
 
     <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding: 60px 20px; margin-bottom: 80px; background: linear-gradient(90deg, transparent, rgba(10, 12, 18, 0.8), transparent);">
-      <h3 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Experience Premium Barbering</h3>
+      <h2 style="color: #f5f5f5; margin-bottom: 25px; font-size: 27px;">Experience Premium Barbering</h2>
       <a href="https://www.styleseat.com/m/v/nathanielsbarbershop?utm_source=google&utm_medium=reserve" target="_blank" rel="noopener noreferrer" class="btn-primary">Reserve Your Chair Now</a>
     </div>
 
-    <h3 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h3>
+    <h2 style="color: var(--text-light); margin-bottom: 40px; font-size: 27px;">Frequently Asked Questions</h2>
     
     <div style="max-width: 800px; margin: 0 auto 80px; text-align: left;">
-      
       <details class="faq-details">
         <summary class="faq-summary">Do you take walk ins or do I need an appointment?</summary>
         <p class="faq-answer">Nathaniel operates strictly by appointment only. Because he is a solo barber working in his own private physical location this ensures every client receives unhurried and undivided attention without waiting in a crowded lobby.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">What is your cancellation and deposit policy?</summary>
         <p class="faq-answer">As a solo barber our time is our inventory. We require a deposit to secure your booking on our schedule. If you cannot make your appointment we kindly ask for over twenty four hours of notice. Without ample notification we lose vital revenue for that specific time slot so the deposit will be retained.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">Where exactly is your shop located?</summary>
         <p class="faq-answer">We operate out of a premium private physical location right here in Sioux Falls SD. You will receive exact directions and details upon completing your secure booking through our StyleSeat portal.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">How often should I return for a haircut?</summary>
         <p class="faq-answer">To keep a precision fade or taper looking razor sharp we highly recommend scheduling a touch up appointment every two to three weeks. Longer classic gentleman cuts can typically extend to every four to six weeks depending on your hair growth.</p>
       </details>
-
       <details class="faq-details">
         <summary class="faq-summary">Which styling products do you recommend?</summary>
         <p class="faq-answer">Product selection depends entirely on your specific cut. We prescribe matte clays and sea salt sprays for a natural textured finish and traditional pomades for a structured classic shine. We will evaluate your hair during the cut and recommend the perfect product.</p>
       </details>
-
     </div>
 
-    <h3 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h3>
+    <h2 style="margin-bottom: 30px; color: var(--text-light); font-size: 25px; text-transform: uppercase; letter-spacing: 2px;">Explore Related Services</h2>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="{{ site.baseurl }}/services/beard-trim" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Beard Trim</a>
       <a href="{{ site.baseurl }}/services/shave" class="btn-primary" style="background: transparent; border-color: rgba(212, 175, 55, 0.3); font-size: 16px; padding: 12px 24px; box-shadow: none;">Straight Razor Shave</a>
