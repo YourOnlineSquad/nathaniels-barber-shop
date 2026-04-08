@@ -20,8 +20,19 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
+/* --- 2. NASA MILKY WAY AMBIENCE (FLASHING & MOVING STARS) --- */
 body {
-  background-color: var(--bg-deep-space);
+  background-color: #020308; /* Deepest space blue/black */
+  /* Base Milky Way dust lane and thousands of dense, tiny static stars */
+  background-image: 
+    radial-gradient(ellipse at 40% 50%, rgba(100, 120, 180, 0.12) 0%, transparent 60%),
+    radial-gradient(ellipse at 60% 40%, rgba(140, 100, 160, 0.1) 0%, transparent 60%),
+    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.5px 1.5px at 30% 60%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 70% 80%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 90% 10%, rgba(255,255,255,0.3), transparent);
+  background-size: 100% 150%, 100% 150%, 150px 150px, 250px 250px, 200px 200px, 300px 300px;
+  background-attachment: fixed;
   color: var(--text-light);
   font-family: var(--font-body);
   line-height: 1.6;
@@ -33,68 +44,36 @@ body {
   overflow-x: hidden;
 }
 
-/* --- 2. REALISTIC SPACE AMBIENCE (NEBULA & STARS) --- */
-/* Overhauling entire section to overwrite old floating star logic and any hypothetical asteroid */
-body {
-  /* ... existing body styles ... */
-  /* Base nebula background effect with fixed small stars texture */
-  background-image: 
-    radial-gradient(circle at center, rgba(75, 20, 110, 0.25) 0%, transparent 60%),
-    radial-gradient(1px 1px at 20px 30px, #fff, transparent),
-    radial-gradient(1.5px 1.5px at 150px 80px, #fff, transparent),
-    radial-gradient(1px 1px at 250px 50px, rgba(255,255,255,0.3), transparent);
-  background-size: 100% 100%, 300px 300px, 300px 300px, 300px 300px;
-  background-attachment: fixed;
-}
-
-/* Twinkling & Glowing Stars Layer */
+/* Moving & Flashing Stars Layer */
 body::before {
   content: '';
   position: fixed;
   top: 0; left: 0; width: 100vw; height: 100vh;
   z-index: -2;
-  /* Brighter, larger stars and light nebula dust clouds */
+  /* Distinct, brighter stars (some white, some faint blue/orange like real stars) */
   background-image: 
     radial-gradient(2px 2px at 50px 100px, #fff, transparent),
-    radial-gradient(3px 3px at 200px 300px, var(--accent-gold), transparent),
-    radial-gradient(2.5px 2.5px at 400px 150px, #fff, transparent),
-    radial-gradient(3px 3px at 600px 500px, rgba(200, 150, 255, 0.9), transparent),
-    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
-  background-size: 450px 450px, 450px 450px, 450px 450px, 450px 450px, 200px 200px;
-  animation: spaceTwinkle 8s ease-in-out infinite alternate;
-  /* Adds a literal glowing halo around these stars */
-  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.6));
+    radial-gradient(2.5px 2.5px at 200px 300px, rgba(200, 220, 255, 1), transparent),
+    radial-gradient(2px 2px at 400px 150px, #fff, transparent),
+    radial-gradient(3px 3px at 600px 500px, rgba(255, 220, 200, 1), transparent);
+  background-size: 350px 350px, 450px 450px, 500px 500px, 600px 600px;
+  /* Intense glow effect */
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.6));
+  /* Flashing and slowly drifting across the screen */
+  animation: spaceFlash 4s ease-in-out infinite alternate, slowPan 150s linear infinite;
 }
 
-/* Moving/Shooting Stars */
-body::after {
-  content: '';
-  position: fixed;
-  top: 10%;
-  right: -10%;
-  width: 180px;
-  height: 2px;
-  z-index: -1;
-  /* Bright white core fading into a gold tail */
-  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.6), #fff);
-  /* Strong glow effect for the shooting star */
-  filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px var(--accent-gold));
-  border-radius: 50%;
-  animation: shootingStar 18s linear infinite; /* Fires every 18 seconds */
-  opacity: 0;
+/* THE ASTEROID / SHOOTING STAR HAS BEEN COMPLETELY REMOVED */
+
+/* --- SPACE ANIMATIONS --- */
+@keyframes spaceFlash {
+  0% { opacity: 0.2; }
+  100% { opacity: 1; filter: drop-shadow(0 0 12px rgba(255, 255, 255, 1)); }
 }
 
-/* Space Animations - Merged here */
-@keyframes spaceTwinkle {
-  0% { opacity: 0.3; transform: scale(1); }
-  100% { opacity: 0.9; transform: scale(1.08); }
-}
-
-@keyframes shootingStar {
-  0% { transform: translate(0, 0) rotate(215deg); opacity: 0; }
-  5% { opacity: 1; }
-  12% { transform: translate(-120vw, 120vh) rotate(215deg); opacity: 0; }
-  100% { opacity: 0; }
+@keyframes slowPan {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: -350px -350px, -450px -450px, -500px -500px, -600px -600px; }
 }
 
 @keyframes floatUpDown {
@@ -165,7 +144,7 @@ main { flex: 1; position: relative; z-index: 10; }
 }
 .nav-menu > ul > li > a:hover { color: var(--accent-gold); text-shadow: 0 0 10px rgba(212, 175, 55, 0.6); }
 
-/* --- ADVANCED MEGA MENU (RESTORED) --- */
+/* --- ADVANCED MEGA MENU --- */
 .nav-item-dropdown { position: relative; }
 
 .mega-menu {
