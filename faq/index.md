@@ -1,3 +1,4 @@
+---
 layout: default
 title: FAQ & Policies | Nathaniel's Barber Shop
 ---
