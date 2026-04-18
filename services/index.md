@@ -193,8 +193,8 @@ description: Explore barbershop services in Sioux Falls SD at Nathaniel’s Barb
 <section class="section" style="padding-top: 20px;">
   <div class="container" style="max-width: 1200px; text-align: center; padding: 0 20px;">
     
-    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px; background: rgba(0,0,0,0.2); padding: 20px;">
-      <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barber Shop Logo" style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto;">
+    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
+      <img src="{{ site.baseurl }}/assets/images/barber/sioux-falls-barber-shop-interior-artistic.webp" alt="Artistic interior of Nathaniel's Barber Shop in Sioux Falls SD" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
     </div>
 
     <div class="card-grid">
@@ -216,4 +216,24 @@ description: Explore barbershop services in Sioux Falls SD at Nathaniel’s Barb
       <a href="{{ site.baseurl }}/services/shave" class="card">
         <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
         <h3>Straight Razor Shave</h3>
-        <p>A traditional hot towel straight razor shave designed for
+        <p>A traditional hot towel straight razor shave designed for ultimate relaxation, leaving your skin incredibly smooth and refreshed.</p>
+        <span class="btn-primary" style="padding: 10px 20px; font-size: 0.8rem; background: transparent;">View Details</span>
+      </a>
+
+      <a href="{{ site.baseurl }}/services/line-up" class="card">
+        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+        <h3>Line Up</h3>
+        <p>Crisp edges and sharp definitions to keep your hairline looking fresh and clean between your full haircut appointments.</p>
+        <span class="btn-primary" style="padding: 10px 20px; font-size: 0.8rem; background: transparent;">View Details</span>
+      </a>
+
+      <a href="{{ site.baseurl }}/services/kids-haircut" class="card">
+        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        <h3>Kids Haircut</h3>
+        <p>Premium grooming for the youth. A comfortable, sharp haircut experience tailored specifically for kids and teens.</p>
+        <span class="btn-primary" style="padding: 10px 20px; font-size: 0.8rem; background: transparent;">View Details</span>
+      </a>
+
+    </div>
+  </div>
+</section>
