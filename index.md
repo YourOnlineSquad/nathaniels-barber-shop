@@ -227,31 +227,74 @@ description: Looking for trusted barbershops in Sioux Falls SD? Nathaniel’s Ba
     height: auto;
   }
 
-  .faq-grid {
+  .faq-accordion-wrap {
     max-width: 900px;
     margin: 50px auto 0 auto;
-    display: grid;
-    gap: 20px;
+    text-align: left;
+  }
+
+  .faq-accordion {
+    border-top: 1px solid rgba(212, 175, 55, 0.25);
   }
 
   .faq-item {
+    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+  }
+
+  .faq-question {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    color: var(--accent-gold);
     text-align: left;
-    padding: 28px;
-    border: 1px solid var(--border-glow);
-    background: rgba(10, 12, 18, 0.45);
-    border-radius: 14px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-weight: 700;
+    padding: 24px 48px 24px 28px;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    line-height: 1.5;
   }
 
-  .faq-item h3 {
-    margin-bottom: 12px;
-    color: var(--text-light);
+  .faq-question::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.95rem;
+    color: var(--accent-gold);
   }
 
-  .faq-item p {
+  .faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    color: rgba(255,255,255,0.75);
+  }
+
+  .faq-item.active .faq-question::after {
+    content: '−';
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .faq-answer-inner {
+    padding: 0 12px 24px 28px;
+  }
+
+  .faq-answer p {
     margin: 0;
     color: var(--text-muted);
-    line-height: 1.7;
+    line-height: 1.8;
+    font-size: 1.1rem;
   }
 </style>
 
@@ -360,31 +403,78 @@ description: Looking for trusted barbershops in Sioux Falls SD? Nathaniel’s Ba
       Here are a few common questions from clients looking for a barber shop in Sioux Falls SD.
     </p>
 
-    <div class="faq-grid">
-      <div class="faq-item">
-        <h3>Do you accept walk ins at your barber shop in Sioux Falls SD?</h3>
-        <p>No. Nathaniel’s Barber Shop works strictly by appointment so every client receives focused service and a more private grooming experience.</p>
-      </div>
+    <div class="faq-accordion-wrap">
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question" type="button">Do you accept walk ins at your barber shop in Sioux Falls SD?</button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>No. Nathaniel’s Barber Shop works strictly by appointment so every client receives focused service and a more private grooming experience.</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="faq-item">
-        <h3>What services do you offer?</h3>
-        <p>We offer mens haircuts, beard maintenance, and traditional straight razor shaves for clients who want a clean polished look.</p>
-      </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button">What services do you offer?</button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>We offer mens haircuts, beard maintenance, and traditional straight razor shaves for clients looking for a clean polished look in Sioux Falls SD.</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="faq-item">
-        <h3>Where is Nathaniel’s Barber Shop located?</h3>
-        <p>We are located at 1401 W 10th St, Sioux Falls, SD 57104.</p>
-      </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button">Where is Nathaniel’s Barber Shop located?</button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>Nathaniel’s Barber Shop is located at 1401 W 10th St, Sioux Falls, SD 57104.</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="faq-item">
-        <h3>How do I book an appointment?</h3>
-        <p>You can reserve your chair online through our booking link and choose the service and appointment time that fits your schedule.</p>
-      </div>
+        <div class="faq-item">
+          <button class="faq-question" type="button">How do I book an appointment?</button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>You can reserve your chair online through our booking link to choose the service and appointment time that works best for you.</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="faq-item">
-        <h3>Why choose Nathaniel’s Barber Shop over other barbershops in Sioux Falls SD?</h3>
-        <p>Clients choose us for precision cuts, detailed beard work, classic grooming services, and an appointment based experience centered on quality and consistency.</p>
+        <div class="faq-item">
+          <button class="faq-question" type="button">Why choose Nathaniel’s Barber Shop over other barbershops in Sioux Falls SD?</button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>Clients choose Nathaniel’s Barber Shop for precision cuts, detailed beard work, classic grooming services, and an appointment based experience focused on quality and consistency.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(function (item) {
+      const button = item.querySelector('.faq-question');
+      const answer = item.querySelector('.faq-answer');
+
+      button.addEventListener('click', function () {
+        const isActive = item.classList.contains('active');
+
+        faqItems.forEach(function (otherItem) {
+          otherItem.classList.remove('active');
+          otherItem.querySelector('.faq-answer').style.maxHeight = null;
+        });
+
+        if (!isActive) {
+          item.classList.add('active');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+        }
+      });
+    });
+  });
+</script>
