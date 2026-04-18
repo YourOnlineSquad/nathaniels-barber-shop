@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: Line Up in Sioux Falls SD | Nathaniel’s Barber Shop
 description: Precision line up and edge up service in Sioux Falls SD. Restore sharp hairlines, beard edges, and neckline detail at Nathaniel’s Barber Shop.
