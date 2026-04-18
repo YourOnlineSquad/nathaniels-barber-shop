@@ -14,7 +14,7 @@ description: Looking for trusted barbershops in Sioux Falls SD? Nathaniel’s Ba
       "name": "Nathaniel's Barber Shop",
       "image": "{{ site.url }}{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp",
       "url": "{{ site.url }}{{ site.baseurl }}/",
-      "telephone": "+1-605-555-0100",
+      "telephone": "+1-605-413-0423",
       "priceRange": "$$",
       "description": "Nathaniel's Barber Shop is a barbershop in Sioux Falls SD offering precision haircuts, beard care, and traditional straight razor shaves by appointment.",
       "address": {
