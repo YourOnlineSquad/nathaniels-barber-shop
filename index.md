@@ -266,7 +266,7 @@ description: Looking for trusted barbershops in Sioux Falls SD? Nathaniel’s Ba
     <span class="eyebrow-text" style="display: block; color: var(--accent-gold); letter-spacing: 4px; text-transform: uppercase; font-size: 0.85rem; margin-bottom: 20px; font-weight: 700;">Master Craftsmanship And Grooming</span>
     
     <h1 style="font-size: clamp(3rem, 6vw, 4.5rem); line-height: 1.1; margin-bottom: 25px; text-shadow: 0 10px 30px rgba(0,0,0,0.8); font-family: var(--font-heading);">
-      Barbershop in Sioux Falls SD
+      <span style="color: var(--accent-gold);">Barbershop</span> in Sioux Falls SD
     </h1>
     
     <p style="font-size: 1.15rem; color: #b0b8c1; line-height: 1.8; margin-bottom: 20px; padding: 0 20px;">
