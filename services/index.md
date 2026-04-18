@@ -193,8 +193,8 @@ description: Explore barbershop services in Sioux Falls SD at Nathaniel’s Barb
 <section class="section" style="padding-top: 20px;">
   <div class="container" style="max-width: 1200px; text-align: center; padding: 0 20px;">
     
-    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px;">
-      <img src="https://images.unsplash.com/photo-1512690196162-4c82da5638a6?auto=format&fit=crop&w=1200&q=80" alt="Interior of Nathaniel's barber shop in Sioux Falls SD featuring premium barbering tools" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 16/9;">
+    <div style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.5); margin: 0 auto 60px; max-width: 900px; background: rgba(0,0,0,0.2); padding: 20px;">
+      <img src="{{ site.baseurl }}/assets/images/barber/nathaniels-barber-shop-logo.webp" alt="Nathaniel's Barber Shop Logo" style="width: 100%; max-width: 400px; height: auto; display: block; margin: 0 auto;">
     </div>
 
     <div class="card-grid">
