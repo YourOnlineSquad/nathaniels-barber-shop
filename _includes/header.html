@@ -1,8 +1,13 @@
 <style>
-  /* 1. Stops the header from following you down the page */
+  /* 1. Stops the header from following you down the page & makes it TRANSPARENT */
   .site-header {
     position: relative !important; 
     top: 0;
+    background: transparent !important; /* Makes it completely see-through */
+    box-shadow: none !important; /* Removes the shadow underneath */
+    border-bottom: none !important; /* Removes the gold line underneath */
+    backdrop-filter: none !important; /* Removes the glass blur effect */
+    -webkit-backdrop-filter: none !important;
   }
 
   /* 2. Prevents the logo from awkwardly stacking on top of itself on mobile */
